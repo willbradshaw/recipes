@@ -1,0 +1,176 @@
+/* Configure type-specific color and watermark */
+
+:root {
+    --hue: 36; /* Default hue */
+}
+.recipe-vegetable { --hue: 125; --watermark: "Vegetables"}
+.recipe-pulse { --hue: 45; --watermark: "Pulses"}
+.recipe-protein { --hue: 0; --watermark: "Protein"}
+
+/* Page layout and block styles */
+
+@page {
+    size: letter;
+    margin: 1.5cm;
+}
+
+body {
+    --background-color: hsl(var(--hue), 100%, 97%);
+    --heading-color: hsl(var(--hue), 100%, 25%);
+    --border-color: hsl(var(--hue), 100%, 35%);
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    line-height: 1.25;
+    color: #543;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.title-block::before {
+    content: var(--watermark, '');
+    position: absolute;
+    text-align: right;
+    top: 0.8em;
+    right: 1em;
+    font-size: 1.25em;
+    font-weight: bold;
+    opacity: 0.3;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.title-block {
+    background-color: var(--background-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+}
+
+
+.preamble p {
+    margin: 0;
+    padding: 0;
+}
+
+.preamble {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10em;
+    line-height: 1.6;
+}
+
+.ingredients-container {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 0;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.ingredients {
+    padding: 0 15px 15px 15px;
+    font-size: 0.9em;
+}
+
+.instructions {
+    margin-left: 35%;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.instructions strong, .instructions b {
+        color: var(--heading-color);
+}
+
+/* Headings */
+
+h1 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: var(--heading-color);
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border-bottom: 2px solid var(--border-color);
+}
+
+h2 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: var(--heading-color);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: var(--heading-color);
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ingredients-container h3 {
+    padding-left: 15px;
+}
+
+/* List styles */
+
+.ingredients ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.ingredients > ul > li {
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.ingredients > ul > li > ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+    border-left: 2px solid var(--border-color);
+}
+
+.ingredients > ul > li > ul > li {
+    margin-bottom: 4px;
+}
+
+.ingredients > ul > li:has(> ul) {
+    margin-bottom: 4px;
+}
+
+ol {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
