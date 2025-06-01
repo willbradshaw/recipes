@@ -6,12 +6,23 @@
 .recipe-vegetable { --hue: 125; --watermark: "Vegetables"}
 .recipe-pulse { --hue: 45; --watermark: "Pulses"}
 .recipe-protein { --hue: 0; --watermark: "Protein"}
+.recipe-sweet { --hue: 200; --watermark: "Sweet" }
+
+/* Hide automatically generated title elements from pandoc metadata */
+head title,
+html > title,
+body > title,
+body > h1.title,
+.title:first-child {
+    display: none !important;
+}
+
 
 /* Page layout and block styles */
 
 @page {
     size: letter;
-    margin: 1.5cm;
+    margin: 1cm;
 }
 
 body {
@@ -66,8 +77,16 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    gap: 10em;
     line-height: 1.6;
+}
+
+/* Add spacing between preamble elements using margins */
+.preamble > * {
+    margin-right: 2em;
+}
+
+.preamble > *:last-child {
+    margin-right: 0;
 }
 
 .ingredients-container {

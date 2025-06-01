@@ -38,8 +38,12 @@ OUTPUT_FILENAME=$(basename "${MARKDOWN_FILE%.*}").pdf
 # Full path for the output PDF
 OUTPUT_PATH="$OUTPUT_DIR/$OUTPUT_FILENAME"
 
-# Run pandoc command
-pandoc "$MARKDOWN_FILE" -o "$OUTPUT_PATH" --pdf-engine=weasyprint --css="$CSS_FILE"
+# Generate a human-readable title from the filename
+# Remove file extension, replace underscores/hyphens with spaces, and capitalize first letter
+TITLE=$(basename "${MARKDOWN_FILE%.*}")
+
+# Run pandoc command with automatic title generation (title will be hidden by CSS)
+pandoc "$MARKDOWN_FILE" -o "$OUTPUT_PATH" --pdf-engine=weasyprint --css="$CSS_FILE" --metadata title="$TITLE"
 
 # Check if the PDF was successfully created
 if [ $? -eq 0 ]; then
