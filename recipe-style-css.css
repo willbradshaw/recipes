@@ -7,6 +7,7 @@
 .recipe-pulse { --hue: 45; --watermark: "Pulses"}
 .recipe-protein { --hue: 0; --watermark: "Protein"}
 .recipe-sweet { --hue: 200; --watermark: "Sweet" }
+.recipe-soup { --hue: 285; --watermark: "Soup" }
 
 /* Hide automatically generated title elements from pandoc metadata */
 head title,
