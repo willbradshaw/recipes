@@ -14,7 +14,7 @@
 
 **Dietary requirements:** Vegan, gluten-free, no major allergens
 
-**Other notes:** I think I prefer the other green bean carom recipe from *Prashad*, but this one is allium-free.
+**Other notes:** I prefer the other green bean carom recipe from *Prashad*, but this one is allium-free.
 </div>
 
 <div class="ingredients-container">
