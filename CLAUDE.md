@@ -8,6 +8,8 @@ The purpose of this repository is to generate standardized recipes for printing 
 - Transparently note formatting decisions in your response.
 - Source attribution records the start page of multi-page spreads.
 - Prefer metric units; add Imperial/US conversions in parentheses where appropriate.
+- Never substitute spices or ingredients without explicit direction from the user. Use what the source recipe specifies.
+- In most cases, add MSG in a volume equal to the volume of salt.
 
 ## File naming
 
@@ -76,8 +78,8 @@ The `<body>` tag must have exactly one of these classes (defined in the CSS):
 
 ## Title block
 
-- **H1 (`#`):** The recipe's primary name — use the transliterated/original name if one is given (e.g. "Baigan bharta"), otherwise an English name.
-- **H2 (`##`):** A short English description of the dish (e.g. "Simple, twice-cooked aubergine").
+- **H1 (`#`):** The recipe's primary name in sentence case — use the transliterated/original name if one is given (e.g. "Baigan bharta"), otherwise an English name.
+- **H2 (`##`):** A short English description of the dish in sentence case (e.g. "Simple, twice-cooked aubergine").
 
 ## Preamble
 
@@ -97,6 +99,7 @@ Fields appear in this exact order. Each field is on its own line, formatted as `
 - Wrapped in `<div class="ingredients-container">` with an H3 `### Ingredients` header.
 - The list itself is inside a Pandoc fenced div: `::: {.ingredients}` ... `:::`.
 - Each ingredient is a bullet (`*`).
+- List ingredients in order of first use in the recipe (preparation steps first, then cooking steps).
 
 ### Formatting rules
 - **No preparation instructions in the ingredients list.** Move all prep (chopping, crushing, soaking, etc.) to section A of the instructions. E.g., list `ginger` in ingredients, then add "crush or finely chop the **ginger**" as a preparation step.
@@ -108,7 +111,7 @@ Fields appear in this exact order. Each field is on its own line, formatted as `
   ```
   Number groups sequentially if there are multiple (`**Spice mix 1:**`, `**Spice mix 2:**`). Use descriptive names where appropriate (`**Masala paste:**`, `**Paneer marinade:**`, `**Dhal mix:**`).
   Never collapse ingredients that need separate preparation into the same group.
-- **Units:** Metric primary. Use `g`, `ml`, `tsp`, `tbsp`, `cm` for metric. Add Imperial in parentheses where helpful: `18 oz (540g)`, `475ml (16 fl oz)`. Temperatures: `200ºC/390ºF`.
+- **Units:** Metric primary. Use `g`, `ml`, `tsp`, `cm` for metric. Add Imperial in parentheses where helpful: `18 oz (540g)`, `475ml (16 fl oz)`. Temperatures: `200ºC/390ºF`. In the ingredients block, use `tsp` only (not `tbsp`) to avoid misreading; convert quantities above 6 tsp (i.e. above 2 tbsp) to `ml`.
 - **Special ingredient names:** Italicize transliterated names in parentheses: `250g red lentils (*masoor dal*)`.
 
 ### Ingredient sub-bullet markers
@@ -120,7 +123,7 @@ Use `*` for both top-level bullets and sub-bullets. Indent sub-bullets by 4 spac
 - Wrapped in `<div class="instructions">` with an H3 `### Instructions` header.
 - Split into two subsections:
   - `#### A. Preparation` — mise en place: chopping, soaking, preparing spice mixes, preheating.
-  - `#### B. Cooking` — actual cooking steps.
+  - `#### B. Cooking` — actual cooking steps, including any boiling (e.g. potatoes). Boiling is cooking, not preparation.
 - Both sections use numbered lists, each starting from 1.
 - **Exception:** Very simple recipes with no meaningful prep (e.g. drinks, simple baking) may use a single unnumbered section with just numbered steps.
 
@@ -129,7 +132,9 @@ Use `*` for both top-level bullets and sub-bullets. Indent sub-bullets by 4 spac
 - Include heat levels: "medium heat", "medium-high heat", "high heat".
 - Include timing: "for 5-6 minutes", "for about 25 minutes".
 - Include visual cues where helpful: "until golden brown", "until the mustard seeds start to pop".
+- Omit parenthetical safety warnings (e.g. "take care as they will splutter") — they clutter the instructions.
 - Common preparation step: `Prepare the **spice mixes**.` (always include this when spice mixes are defined).
+- **Curry leaves** should be crushed in the hand immediately before adding to the pan (not during section A preparation), as the crushing releases volatile oils.
 - Many curry recipes end with: "Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse."
 
 ## Processing images into markdown
