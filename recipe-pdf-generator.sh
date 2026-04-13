@@ -43,7 +43,7 @@ OUTPUT_PATH="$OUTPUT_DIR/$OUTPUT_FILENAME"
 TITLE=$(basename "${MARKDOWN_FILE%.*}")
 
 # Run pandoc command with automatic title generation (title will be hidden by CSS)
-pandoc "$MARKDOWN_FILE" -o "$OUTPUT_PATH" --pdf-engine=weasyprint --css="$CSS_FILE" --metadata title="$TITLE"
+pandoc "$MARKDOWN_FILE" -o "$OUTPUT_PATH" --pdf-engine=weasyprint --css="$CSS_FILE" --metadata title="$TITLE" 2> >(grep -v '^WARNING:' >&2)
 
 # Check if the PDF was successfully created
 if [ $? -eq 0 ]; then
