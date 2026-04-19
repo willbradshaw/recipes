@@ -2,4 +2,4 @@ pdf/*
 image/*
 .DS_Store
 .Rhistory
-
+md/draft/**
