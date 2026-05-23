@@ -153,6 +153,8 @@ Each recipe must fit on a single printed page. The linter caps file size at 2250
 
 Per-ingredient kcal/100g and kcal/100ml values live in `scripts/data/calorie_values.json`. Use these ballparks when estimating `Calories/serving`. Add new entries to the JSON as recipes introduce other major calorie contributors.
 
+For estimating, use `scripts/calorie_helper.py` — either as a Python import (`from calorie_helper import estimate`) or via its CLI (`scripts/calorie_helper.py "Recipe name" -s 4 -i "Potatoes:680" -i "Fats and oils:60:ml" --spice-tsp 8`). It prints a per-ingredient breakdown and returns the rounded-to-5 kcal/serving figure.
+
 Notes:
 - Always use values for ingredients in the state listed in the recipe (e.g. dry pulses, not cooked).
 - Common trap: cooked dal is ~120 kcal/100g (water-diluted), but recipes specify dry weight — always use the dry value (~350 kcal/100g).
