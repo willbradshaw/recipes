@@ -10,7 +10,11 @@
 
 **Rating:** ★★★★★
 
-**Servings:** 4
+**Complexity:** ●●○○○
+
+**Servings:** 6
+
+**Calories/serving:** 570
 
 **Dietary requirements:** Vegetarian, gluten-free, no major allergens
 
@@ -23,8 +27,8 @@
 
 ::: {.ingredients}
 * 18oz (540g) paneer cheese
-* 200g frozen petits pois peas
-* 7cm root ginger
+* 284g (10 oz) frozen peas
+* 6 tsp root ginger
 * 1 tsp cumin seeds
 * 1 tin peeled or chopped tomatoes
 * 1 handful fresh coriander/cilantro
@@ -34,6 +38,7 @@
     * 3 tsp ground coriander
     * 1 tsp ground cumin
     * 2 tsp salt
+    * 2 tsp MSG
 * Sunflower oil
 :::
 

@@ -17,8 +17,6 @@
 **Calories/serving:** 218
 
 **Dietary requirements:** Vegan, gluten-free, no major allergens
-
-**Other notes:** Tasty and easy
 </div>
 
 <div class="ingredients-container">

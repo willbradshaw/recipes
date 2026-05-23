@@ -10,9 +10,11 @@
 
 **Rating:** ★★★☆☆
 
+**Complexity:** ●●●○○
+
 **Servings:** 7
 
-**Calories:** 209
+**Calories/serving:** 315
 
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
