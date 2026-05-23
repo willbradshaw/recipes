@@ -466,6 +466,102 @@ def test_only_one_section_header_is_error(tmp_path):
     assert any("must have both or neither" in e for e in result.errors)
 
 
+@pytest.mark.parametrize("value", ["n/a", "N/A", "Na", "none", "  "])
+def test_empty_other_notes_is_flagged(tmp_path, value):
+    text = GOOD_RECIPE.replace(
+        "**Dietary requirements:** Vegan, gluten-free",
+        f"**Dietary requirements:** Vegan, gluten-free\n\n**Other notes:** {value}",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("Empty 'Other notes' field" in e for e in result.errors)
+
+
+def test_nonempty_other_notes_is_ok(tmp_path):
+    text = GOOD_RECIPE.replace(
+        "**Dietary requirements:** Vegan, gluten-free",
+        "**Dietary requirements:** Vegan, gluten-free\n\n**Other notes:** Tasty",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("Other notes" in e for e in result.errors)
+
+
+@pytest.mark.parametrize(
+    "word,suggestion",
+    [
+        ("teaspoon", "tsp"),
+        ("teaspoons", "tsp"),
+        ("tablespoon", "ml"),
+        ("tablespoons", "ml"),
+    ],
+)
+def test_longhand_unit_in_ingredients_is_flagged(tmp_path, word, suggestion):
+    text = GOOD_RECIPE.replace("* 500g potatoes", f"* 2 {word} salt")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any(word in e and suggestion in e for e in result.errors)
+
+
+def test_tbsp_is_banned_in_ingredients(tmp_path):
+    text = GOOD_RECIPE.replace("* 500g potatoes", "* 2 tbsp salt")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("'tbsp' is banned" in e for e in result.errors)
+
+
+def test_tbsp_is_banned_in_instructions(tmp_path):
+    # Unlike longhand `teaspoon`, `tbsp` is banned everywhere.
+    text = GOOD_RECIPE.replace(
+        "1. Heat a pan and cook the vegetables until tender.",
+        "1. Heat a pan and add 2 tbsp water.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("'tbsp' is banned" in e for e in result.errors)
+
+
+def test_longhand_unit_in_instructions_is_ok(tmp_path):
+    # Longhand `tablespoons` is fine in instructions (only banned in ingredients).
+    text = GOOD_RECIPE.replace(
+        "1. Heat a pan and cook the vegetables until tender.",
+        "1. Heat a pan and add 2 tablespoons of water if too thick.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("ingredients block" in e for e in result.errors)
+
+
+def test_tsp_in_ingredients_is_ok(tmp_path):
+    text = GOOD_RECIPE.replace("* 500g potatoes", "* 2 tsp salt")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("ingredients block" in e for e in result.errors)
+
+
+def test_omitted_other_notes_is_ok(tmp_path):
+    # GOOD_RECIPE has no Other notes field — should pass.
+    result = lint_recipes.lint_file(write(tmp_path, GOOD_RECIPE))
+    assert not any("Other notes" in e for e in result.errors)
+
+
+def test_duplicate_step_number_is_flagged(tmp_path):
+    text = GOOD_RECIPE.replace(
+        "1. Heat a pan and cook the vegetables until tender.",
+        "1. Heat a pan and cook the vegetables until tender.\n1. Add salt.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("Step numbers" in e and "not sequential" in e for e in result.errors)
+
+
+def test_skipped_step_number_is_flagged(tmp_path):
+    text = GOOD_RECIPE.replace(
+        "2. Cut the **cauliflower** into florets.",
+        "2. Cut the **cauliflower** into florets.\n4. Wash the potatoes.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("Step numbers" in e for e in result.errors)
+
+
+def test_sequential_step_numbers_pass(tmp_path):
+    # GOOD_RECIPE already has sequential numbers in both sections.
+    result = lint_recipes.lint_file(write(tmp_path, GOOD_RECIPE))
+    assert not any("Step numbers" in e for e in result.errors)
+
+
 def test_no_section_headers_is_allowed(tmp_path):
     # Simple recipes can omit A/B section headers.
     text = GOOD_RECIPE.replace("#### A. Preparation\n\n", "").replace(

@@ -32,15 +32,15 @@
 * 1 handful fresh coriander
 * 5cm root ginger
 * **Spice mix:**
-    * 3 teaspoons red chilli powder
-    * 2 teaspoons salt
-    * 2 teaspoons turmeric
-    * 3 teaspoons ground coriander
-    * 1 teaspoon ground cumin
-    * 2 teaspoons sugar
+    * 3 tsp red chilli powder
+    * 2 tsp salt
+    * 2 tsp turmeric
+    * 3 tsp ground coriander
+    * 1 tsp ground cumin
+    * 2 tsp sugar
 * 150ml sunflower oil
-* 2 teaspoons carom/ajwain seeds
-* ½ teaspoon asafetida
+* 2 tsp carom/ajwain seeds
+* ½ tsp asafetida
 :::
 
 </div>

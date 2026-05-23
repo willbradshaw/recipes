@@ -27,16 +27,16 @@
 * 550g chana dal
 * 1 large onion
 * 5 cloves garlic
-* 3 teaspoons fresh ginger
+* 3 tsp fresh ginger
 * 1 × 400g tin chopped tomatoes
 * 250g frozen spinach
 * 1 tsp vegetable oil
 * 1 tsp ground turmeric
 * 3 tsp salt
 * 75ml butter (or ghee)
-* 1 teaspoon whole brown mustard seeds
-* 1 teaspoon whole cumin seeds
-* ½ teaspoon ground asafoetida
+* 1 tsp whole brown mustard seeds
+* 1 tsp whole cumin seeds
+* ½ tsp ground asafoetida
 * 3-4 dried hot red chillies
 * 7-8 fresh curry leaves
 * 2 tsp red chilli powder

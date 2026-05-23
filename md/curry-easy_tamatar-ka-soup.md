@@ -27,7 +27,7 @@
 
 ::: {.ingredients}
 * 200g mung dal
-* 4 tablespoons vegetable oil
+* 60ml vegetable oil
 * 1 medium onion
 * 5cm root ginger
 * 4 medium red peppers

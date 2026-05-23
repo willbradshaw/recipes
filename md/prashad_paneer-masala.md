@@ -42,7 +42,7 @@
     * 3 tsp ground coriander
     * 1 tsp ground cumin
 * Sunflower oil
-* 4 tbsp unsalted butter
+* 60ml unsalted butter
 * Up to 100ml hot water
 * 1 tsp garam masala
 :::

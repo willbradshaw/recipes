@@ -34,12 +34,12 @@
     * 2-4 fresh green chillies
     * pinch of salt
 * **Spice mix:**
-    * 2 teaspoons ground coriander
-    * 1 teaspoon ground cumin
-    * 1 teaspoon ground turmeric
+    * 2 tsp ground coriander
+    * 1 tsp ground cumin
+    * 1 tsp ground turmeric
 * 100ml olive or peanut oil
 * 200ml fine tomato passata
-* 1 teaspoon salt, or to taste
+* 1 tsp salt, or to taste
 :::
 
 </div>

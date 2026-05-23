@@ -20,7 +20,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 MD_DIR = REPO_ROOT / "md"
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
-MAX_FILE_CHARS = 3000
+MAX_FILE_CHARS = 2250
 MAX_TITLE_CHARS = 25
 MAX_SUBTITLE_CHARS = 60
 
@@ -239,6 +239,14 @@ def lint_file(path: Path) -> LintResult:
                 f"Source must be '*Book Title*, p. N' or a URL; got {src!r}"
             )
 
+    # ── Empty "Other notes" ───────────────────────────────────────────────
+    if "Other notes" in fields:
+        notes = fields["Other notes"].strip().lower()
+        if notes in ("", "n/a", "na", "none"):
+            result.errors.append(
+                f"Empty 'Other notes' field ({fields['Other notes']!r}) — omit the line entirely"
+            )
+
     # ── Structural sections ───────────────────────────────────────────────
     expected_markers = [
         '<div class="preamble">',
@@ -261,10 +269,45 @@ def lint_file(path: Path) -> LintResult:
             "Recipe has only one of '#### A. Preparation' / '#### B. Cooking' — must have both or neither"
         )
 
+    # ── Unit conventions ─────────────────────────────────────────────────
+    # `tbsp` is banned everywhere (too easy to misread as `tsp`): use
+    # multiple `tsp` for small quantities or `ml` for larger ones.
+    for m in re.finditer(r"\btbsp\b", text, re.IGNORECASE):
+        result.errors.append(
+            f"{m.group(0)!r} is banned (misreadable as 'tsp'); use 'tsp' (small qty) or 'ml' (larger qty)"
+        )
+    # Ingredients must use `tsp` (not `teaspoon[s]`), and `tablespoon[s]`
+    # longhand is also disallowed there. Longhand units in instructions are
+    # fine (consistent with `for 5 minutes`).
+    ing_match = re.search(r":::\s*{\.ingredients}(.*?):::", text, re.DOTALL)
+    if ing_match:
+        for m in re.finditer(
+            r"\b(teaspoons?|tablespoons?)\b", ing_match.group(1), re.IGNORECASE
+        ):
+            word = m.group(1)
+            short = "tsp" if "teaspoon" in word.lower() else "tsp (small qty) or ml (larger qty)"
+            result.errors.append(
+                f"Use {short} instead of {word!r} in the ingredients block"
+            )
+
     # ── Spelling / canonical-name checks ──────────────────────────────────
     _flag_substitutions(text, US_TO_UK, US_TO_UK_RE, "American spelling", result)
     _flag_substitutions(text, INDIAN_NAMES, INDIAN_NAMES_RE, "non-canonical Indian name", result)
     _check_filename(path, text, result)
+
+    # ── Step numbering (each section starts at 1 and runs sequentially) ──
+    for header, end_marker in (
+        ("#### A. Preparation", "#### B. Cooking"),
+        ("#### B. Cooking", "</div>"),
+    ):
+        block = extract_section(text, header, end_marker)
+        if not block:
+            continue
+        numbers = [int(m.group(1)) for m in re.finditer(r"^(\d+)\.\s", block, re.MULTILINE)]
+        if numbers and numbers != list(range(1, len(numbers) + 1)):
+            result.errors.append(
+                f"Step numbers in '{header}' are not sequential 1..N: got {numbers}"
+            )
 
     # ── Forbidden cooking verbs in Preparation section ────────────────────
     prep_block = extract_section(text, "#### A. Preparation", "#### B. Cooking")

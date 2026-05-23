@@ -29,19 +29,19 @@
 * **Sauce mix:**
     * 250ml tomato passata
     * 250ml double cream
-    * 1 teaspoon garam masala
-    * 2 teaspoons lemon juice
-    * 1 teaspoon sugar
-    * 2 teaspoons red chilli powder
-    * 1 teaspoon ground cumin
-    * 1 tablespoon dried fenugreek leaves (*kasuri methi*)
-* 2 teaspoons fresh ginger
-* 2 teaspoons salt
+    * 1 tsp garam masala
+    * 2 tsp lemon juice
+    * 1 tsp sugar
+    * 2 tsp red chilli powder
+    * 1 tsp ground cumin
+    * 3 tsp dried fenugreek leaves (*kasuri methi*)
+* 2 tsp fresh ginger
+* 2 tsp salt
 * 400g fresh Indian cheese (paneer)
-* ½ teaspoon black pepper
-* 3 tablespoons unsalted butter
-* 1 teaspoon whole cumin seeds
-* 2-3 tablespoons fresh coriander
+* ½ tsp black pepper
+* 45ml unsalted butter
+* 1 tsp whole cumin seeds
+* 30-45ml fresh coriander
 :::
 
 </div>

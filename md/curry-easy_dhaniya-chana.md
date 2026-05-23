@@ -32,7 +32,7 @@
     * 50g fresh coriander leaves and tender stems
     * 1-2 fresh hot green chillies
     * 3 tsp fresh ginger
-    * 1 teaspoon salt
+    * 1 tsp salt
     * 45 ml water
 * 1 medium onion
 * 3 × 16oz (~450g) tins of chickpeas

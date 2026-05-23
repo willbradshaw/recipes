@@ -33,14 +33,14 @@
     * 3 tsp root ginger
     * pinch of salt
 * **Spice mix 1:**
-    * 1 teaspoon brown mustard seeds
-    * 2 teaspoons carom seeds
+    * 1 tsp brown mustard seeds
+    * 2 tsp carom seeds
 * **Spice mix 2:**
     * ½ tsp asafetida
     * 2 tsp turmeric
     * 3 tsp ground coriander
-    * 2 teaspoons salt
-    * 2 teaspoons sugar
+    * 2 tsp salt
+    * 2 tsp sugar
 * 2 large aubergines
 * 2 handfuls fresh coriander
 * 2 medium tomatoes

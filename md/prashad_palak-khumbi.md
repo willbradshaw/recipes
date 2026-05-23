@@ -36,17 +36,17 @@
 * 3 medium tomatoes
 * 1 handful fresh coriander
 * **Spice mix 1:**
-    * 1 teaspoon fenugreek seeds
-    * 1 teaspoon brown mustard seeds
+    * 1 tsp fenugreek seeds
+    * 1 tsp brown mustard seeds
 * **Spice mix 2:**
-    * 3 teaspoons red chilli powder
-    * 2 teaspoons salt
-    * 2 teaspoons turmeric
-    * 4 teaspoons ground coriander
-    * 1 teaspoon ground cumin
-    * 1 teaspoon garam masala
+    * 3 tsp red chilli powder
+    * 2 tsp salt
+    * 2 tsp turmeric
+    * 4 tsp ground coriander
+    * 1 tsp ground cumin
+    * 1 tsp garam masala
 * 150ml sunflower oil
-* ½ teaspoon asafetida
+* ½ tsp asafetida
 :::
 
 </div>

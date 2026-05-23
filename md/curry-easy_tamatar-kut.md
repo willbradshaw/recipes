@@ -38,7 +38,7 @@
     * 8-10 dried red chillies
 * 12-15 curry leaves
 * 12 large eggs
-* 3 tbsp chickpea flour (*besan*)
+* 45ml chickpea flour (*besan*)
 * 350ml tomato passata
 * 1 tsp tamarind concentrate
 * 2 tsp salt
@@ -61,7 +61,7 @@
 
 1. Hard-boil the **eggs**, peel them under cold running water and quarter.
 2. Heat a small pan on medium-high heat, add the **chickpea flour** and stir until a shade darker. Transfer to a bowl and leave to cool.
-3. When cold, slowly add 6 tbsp water, stirring to a thick lump-free paste. Stir in the **tomato passata**, **tamarind concentrate** and **salt**.
+3. When cold, slowly add 90ml water, stirring to a thick lump-free paste. Stir in the **tomato passata**, **tamarind concentrate** and **salt**.
 4. Heat half the **oil** in a medium frying pan over medium heat. When hot, add half the **curry leaves**, then the **masala paste**. Stir a few times, reduce heat to low, then add the **spice mix** and sauce mixture.
 5. Bring to a boil, stirring constantly, then lower the heat and simmer gently for 10 minutes, stirring occasionally. Check the **salt**.
 6. Heat the rest of the **oil** in a small frying pan over medium-high heat. Stir in **spice mix 2** and cook until the chillies brown. Add the rest of the **curry leaves**, stir briefly, then tip over the sauce.
