@@ -19,7 +19,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 MD_DIR = REPO_ROOT / "md"
 
 MAX_FILE_CHARS = 3000
-MAX_TITLE_CHARS = 35
+MAX_TITLE_CHARS = 25
 MAX_SUBTITLE_CHARS = 60
 
 VALID_BODY_CLASSES = {
