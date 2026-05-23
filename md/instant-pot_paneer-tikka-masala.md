@@ -10,7 +10,7 @@
 
 **Rating:** ★★★★☆
 
-**Complexity:** ●●●●○
+**Complexity:** ●●●●●
 
 **Servings:** 4
 
@@ -24,12 +24,12 @@
 ### Ingredients
 
 ::: {.ingredients}
-* 18 oz (540g) paneer cheese
+* 18 oz (540g) paneer
 * **Paneer marinade:**
-    - 60 ml thick plain yoghurt
+    - 60ml thick plain yoghurt
     - 1 tsp coriander powder
     - ½ tsp garam masala
-    - 1 tsp red chili powder
+    - 1 tsp red chilli powder
     - ½ tsp salt
 * 1 large red onion
 * 4 large tomatoes
@@ -38,7 +38,7 @@
 * 1 handful fresh coriander
 * **Spice mix 1:**
     * 1 tsp cumin seeds
-    * 2 cinammon sticks
+    * 2 cinnamon sticks
 * **Spice mix 2:**
     * 2 tsp ground coriander
     * 1 tsp ground cumin
@@ -46,10 +46,9 @@
     * 1 tsp salt
     * 1 tsp MSG
     * 3 tsp sugar
-    * 1 tsp red chili powder
+    * 1 tsp red chilli powder
 * Vegetable oil
-
-* 60ml (¼ cup) heavy cream
+* 60ml heavy cream
 :::
 
 </div>
@@ -60,21 +59,21 @@
 
 #### A. Preparation
 
-1. Combine the **paneer marinade** ingredients in a large bowl.
-2. Cut the **paneer** into 1-inch cubes, combine with the marinade by hand, and cover and refrigerate for at least 30 minutes (up to overnight).
+1. Combine the **paneer marinade** ingredients in a bowl.
+2. Cut the **paneer** into 1-inch cubes, combine with the marinade and refrigerate for ≥30 min.
 3. Finely chop the **red onion**, **tomatoes**, **ginger**, **garlic** and **fresh coriander**.
 4. Prepare the **spice mixes**.
 
 #### B. Cooking
 
-1. Press the sauté button on the Instant Pot and set to a high heat, then add 60 ml **oil**.
+1. Press the sauté button on the Instant Pot and set to a high heat, then add 60ml **oil**.
 2. Add **spice mix 1**, let sizzle for a few seconds, then add the **onion**, **garlic** and **ginger**.
-3. Sauté for around 3 minutes, until the onions turn light golden brown.
-3. Add the **tomatoes** and **spice mix 2**. Stir, cover the pot with a glass lid and cook for 3 to 4 minutes.
-4. Add 1 cup of water and stir. Close and seal the pot, press the pressure-cook button, and cook on high pressure for 2 minutes.
-5. Do a quick pressure release, open the lid, and press the sauté button again.
-6. Meanwhile, pour **oil** into a large pan until about 1 cm deep and heat over a high heat, then fry the marinated **paneer** cubes until golden brown on all sides.
-7. Add the **cream** and **paneer** cubes to the Instant Pot and simmer for 2-3 minutes, then stir in the **fresh coriander**.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
+3. Sauté for ~3 min, until the onions are light golden brown.
+4. Add the **tomatoes** and **spice mix 2**. Stir, cover the pot and cook for 3-4 min.
+5. Add 1 cup water and stir. Seal the pot and pressure-cook on high for 2 min.
+6. Quick-release pressure, open the lid, press sauté.
+7. Meanwhile, heat **oil** ~1cm deep in a large pan over high heat, then fry the **paneer** cubes until golden brown on all sides.
+8. Add the **cream** and **paneer** cubes to the pot and simmer for 2-3 minutes, then stir in the **fresh coriander**.
+9. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 </div>
 </body>

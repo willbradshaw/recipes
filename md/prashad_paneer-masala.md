@@ -18,7 +18,7 @@
 
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums
 
-**Other notes:** Excellent paneer recipe. For best results, cook the onions until they're almost burnt.
+**Other notes:** Excellent. For best results, almost burn the onions.
 </div>
 
 <div class="ingredients-container">
@@ -33,7 +33,7 @@
     * pinch of salt
 * 6cm root ginger
 * 1 medium onion
-* 1 tin peeled or chopped tomatoes
+* 1 tin chopped tomatoes
 * 2 handfuls fresh coriander
 * **Spice mix:**
     * 2 tsp salt
@@ -63,7 +63,7 @@
 
 #### B. Cooking
 
-1. Pour the **oil** into a large pan until about 1cm deep and heat over a high heat. (Alternatively, use a deep fat fryer.)
+1. Heat **oil** ~1cm deep in a large pan over high heat (or use a deep fat fryer).
 2. Gently lower the **paneer** cubes into the oil and fry until golden brown on all sides. Drain on kitchen towel until needed.
 3. In a fresh pan, heat 75ml **oil** for 2 minutes over a medium heat.
 4. Add the **masala paste** and fry for 20 seconds, stirring constantly.

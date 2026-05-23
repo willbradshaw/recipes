@@ -36,7 +36,7 @@
 * 1 tsp mustard seeds
 * ½ tsp asafetida
 * 2 medium onions, diced
-* 3 medium vine tomatoes, diced, or 1 tin chopped or peeled
+* 1 × 400g tin chopped tomatoes
 * **Spice mix:**
     * 1 tsp red chilli powder
     * 2 tsp garam masala

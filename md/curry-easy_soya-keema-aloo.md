@@ -17,8 +17,6 @@
 **Calories/serving:** 325
 
 **Dietary requirements:** Vegan, gluten-free, contains alliums
-
-**Other notes:** n/a
 </div>
 
 <div class="ingredients-container">
@@ -60,9 +58,9 @@
 1. Soak the **soya chunks** in 500ml water for 5 minutes. Drain, saving the soaking water.
 2. Cut the **potatoes** into thin (0.5cm) chunks, without peeling.
 3. Peel and finely chop the **onions**.
-5. Crush the **masala paste** ingredients into a smooth paste.
-7. Prepare the **spice mixes**.
-8. Finely chop the **fresh coriander**.
+4. Crush the **masala paste** ingredients into a smooth paste.
+5. Prepare the **spice mixes**.
+6. Finely chop the **fresh coriander**.
 
 #### B. Cooking
 

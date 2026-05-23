@@ -59,14 +59,14 @@
 
 #### B. Cooking
 
-6. Heat the **oil** in a large thick-based pan for 2 minutes over a medium heat. 
-7. Add the **carom seeds** and fry for 30 seconds (no more), then add the **asafetida** and **green beans**.
-8. Stir and turn the beans to make sure they are all covered in oil, then let them sizzle gently for a few seconds.
-9. Add the **masala paste** and **spice mix** & stir through.
-10. Cover and cook on a medium heat for 7 minutes, stirring every few minutes.
-11. Stir in the **tomatoes** and **fresh coriander**.
-12. Re-cover, reduce the heat to low and cook for a further 7 minutes.
-13. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
+1. Heat the **oil** in a large thick-based pan for 2 minutes over a medium heat.
+2. Add the **carom seeds** and fry for 30 seconds (no more), then add the **asafetida** and **green beans**.
+3. Stir and turn the beans to make sure they are all covered in oil, then let them sizzle gently for a few seconds.
+4. Add the **masala paste** and **spice mix** & stir through.
+5. Cover and cook on a medium heat for 7 minutes, stirring every few minutes.
+6. Stir in the **tomatoes** and **fresh coriander**.
+7. Re-cover, reduce the heat to low and cook for a further 7 minutes.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

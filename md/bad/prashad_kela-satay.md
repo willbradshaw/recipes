@@ -8,7 +8,7 @@
 <div class="preamble">
 **Source:** *Prashad*, p. 138
 
-**Rating:** ★★★☆☆
+**Rating:** ★★☆☆☆
 
 **Complexity:** ●●●●●
 

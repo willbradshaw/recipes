@@ -17,8 +17,6 @@
 **Calories/serving:** 340
 
 **Dietary requirements:** Vegetarian, gluten-free, no major allergens
-
-**Other notes:** Very tasty
 </div>
 
 <div class="ingredients-container">
@@ -51,11 +49,11 @@
 
 1. Leave the **coconut milk** can undisturbed for 24 hours to allow the cream to rise to the top.
 2. Carefully open the **coconut milk** can and spoon out the thick cream into a separate bowl.
-4. Prepare the **spice mixes**.
-3. Cut the **mushrooms** into quarters, then place in a large bowl with **spice mix 1**. Thoroughly rub the spices into the mushrooms, then set aside for 10 minutes.
-4. Peel and finely chop the **shallots**.
-5. Finely chop the **green chillies**.
-6. Juice the **lime**.
+3. Prepare the **spice mixes**.
+4. Cut the **mushrooms** into quarters, then place in a large bowl with **spice mix 1**. Thoroughly rub the spices into the mushrooms, then set aside for 10 minutes.
+5. Peel and finely chop the **shallots**.
+6. Finely chop the **green chillies**.
+7. Juice the **lime**.
 
 #### B. Cooking
 

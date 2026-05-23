@@ -8,7 +8,7 @@
 <div class="preamble">
 **Source:** *Curry Easy Vegetarian*, p. 58
 
-**Rating:** ★★★☆☆
+**Rating:** ★★☆☆☆
 
 **Complexity:** ●○○○○
 

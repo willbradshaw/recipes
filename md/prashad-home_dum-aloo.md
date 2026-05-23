@@ -17,8 +17,6 @@
 **Calories/serving:** 410
 
 **Dietary requirements:** Vegan, gluten-free, contains alliums
-
-**Other notes:** Solid potato recipe.
 </div>
 
 <div class="ingredients-container">

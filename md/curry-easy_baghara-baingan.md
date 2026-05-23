@@ -70,12 +70,12 @@
 
 #### B. Cooking
 
-1. Spread the aubergine chunks on one or more baking trays and bake in the oven for 20 minutes, stirring after 10 minutes.
+1. Spread the aubergine chunks on baking trays and bake for 20 min, stirring at 10 min.
 2. Add the **oil** to a large non-stick pan over a medium-high heat. When hot, add **spice mix 1** and cook for a few seconds.
-3. Crush the **curry leaves** lightly and add to the pan, then add the **onion**. Stir and fry for about 5 minutes, until the onion browns.
-4. Add the **ginger** and **garlic** and cook for 2 minutes, then stir in **spice mix 2** and cook on a low heat for 8-10 minutes.
-5. Stir in the **peanut sauce** and cook on a low heat for 5 minutes, stirring regularly.
-6. Gently stir in the baked aubergine pieces and cook for 10 more minutes on a low heat.
+3. Crush the **curry leaves** lightly and add to the pan, then add the **onion** and fry for ~5 min, until browned.
+4. Add the **ginger** and **garlic**, cook 2 min, then stir in **spice mix 2** and cook on low for 8-10 min.
+5. Stir in the **peanut sauce** and cook on low for 5 min, stirring regularly.
+6. Gently stir in the baked aubergine pieces and cook on low for 10 more min.
 7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>

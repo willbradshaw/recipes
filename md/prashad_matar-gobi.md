@@ -1,7 +1,7 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Matar and flower
+# Matar gobi
 ## Peas and cauliflower
 </div>
 
@@ -17,8 +17,6 @@
 **Calories/serving:** 320
 
 **Dietary requirements:** Vegan, gluten-free, no major allergens
-
-**Other notes:** n/a
 </div>
 
 <div class="ingredients-container">
