@@ -88,10 +88,16 @@ FORBIDDEN_PREP_RE = re.compile(
     re.IGNORECASE,
 )
 
-US_TO_UK: dict[str, str] = json.loads((DATA_DIR / "us_to_uk.json").read_text())
-US_TO_UK_RE = re.compile(
-    r"\b(" + "|".join(re.escape(w) for w in US_TO_UK) + r")\b", re.IGNORECASE
-)
+def _load_corrections(name: str) -> tuple[dict[str, str], re.Pattern[str]]:
+    mapping: dict[str, str] = json.loads((DATA_DIR / name).read_text())
+    pattern = re.compile(
+        r"\b(" + "|".join(re.escape(w) for w in mapping) + r")\b", re.IGNORECASE
+    )
+    return mapping, pattern
+
+
+US_TO_UK, US_TO_UK_RE = _load_corrections("us_to_uk.json")
+INDIAN_NAMES, INDIAN_NAMES_RE = _load_corrections("indian_names.json")
 
 # Proper nouns that are allowed to be capitalized mid-sentence. Extend as
 # new recipes introduce new place names, languages, or culinary traditions.
@@ -253,14 +259,9 @@ def lint_file(path: Path) -> LintResult:
             "Recipe has only one of '#### A. Preparation' / '#### B. Cooking' — must have both or neither"
         )
 
-    # ── American spellings ────────────────────────────────────────────────
-    for m in US_TO_UK_RE.finditer(text):
-        found = m.group(0)
-        uk = US_TO_UK[found.lower()]
-        # Preserve case in the suggestion.
-        if found[0].isupper():
-            uk = uk[0].upper() + uk[1:]
-        result.errors.append(f"American spelling {found!r}; use {uk!r}")
+    # ── Spelling / canonical-name checks ──────────────────────────────────
+    _flag_substitutions(text, US_TO_UK, US_TO_UK_RE, "American spelling", result)
+    _flag_substitutions(text, INDIAN_NAMES, INDIAN_NAMES_RE, "non-canonical Indian name", result)
 
     # ── Forbidden cooking verbs in Preparation section ────────────────────
     prep_block = extract_section(text, "#### A. Preparation", "#### B. Cooking")
@@ -272,6 +273,21 @@ def lint_file(path: Path) -> LintResult:
                 )
 
     return result
+
+
+def _flag_substitutions(
+    text: str,
+    mapping: dict[str, str],
+    pattern: re.Pattern[str],
+    label: str,
+    result: LintResult,
+) -> None:
+    for m in pattern.finditer(text):
+        found = m.group(0)
+        replacement = mapping[found.lower()]
+        if found[0].isupper():
+            replacement = replacement[0].upper() + replacement[1:]
+        result.errors.append(f"{label} {found!r}; use {replacement!r}")
 
 
 def parse_preamble_fields(text: str) -> dict[str, str]:

@@ -246,6 +246,45 @@ def test_uk_spelling_is_not_flagged(tmp_path):
     assert not any("American spelling" in e for e in result.errors)
 
 
+# ── Indian name canonicalization ─────────────────────────────────────────
+
+
+@pytest.mark.parametrize(
+    "bad,good",
+    [
+        ("dhal", "dal"),
+        ("toovar", "toor"),
+        ("tuvar", "toor"),
+        ("moong", "mung"),
+        ("mattar", "matar"),
+        ("wattana", "matar"),
+        ("bataka", "aloo"),
+        ("bhinda", "bhindi"),
+        ("baigan", "baingan"),
+        ("gobhi", "gobi"),
+        ("amchoor", "amchur"),
+    ],
+)
+def test_indian_name_is_flagged(tmp_path, bad, good):
+    text = GOOD_RECIPE.replace("* 500g potatoes", f"* 500g {bad}")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any(f"non-canonical Indian name {bad!r}" in e and good in e for e in result.errors)
+
+
+def test_indian_name_capitalized_keeps_case(tmp_path):
+    text = GOOD_RECIPE.replace("# Aloo gobi", "# Toovar dal")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("'Toor'" in e for e in result.errors)
+
+
+def test_canonical_indian_name_is_not_flagged(tmp_path):
+    text = GOOD_RECIPE.replace(
+        "* 500g potatoes", "* 500g aloo\n* 200g toor dal\n* 100g matar"
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("non-canonical Indian name" in e for e in result.errors)
+
+
 def test_h1_equal_length_to_h2_is_ok(tmp_path):
     text = GOOD_RECIPE.replace("# Aloo gobi", "# Aloooo gobi").replace(
         "## Potato and cauliflower curry", "## Potato cauli"
