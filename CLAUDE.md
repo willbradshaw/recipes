@@ -137,6 +137,20 @@ Use `*` for both top-level bullets and sub-bullets. Indent sub-bullets by 4 spac
 - **Curry leaves** should be crushed in the hand immediately before adding to the pan (not during section A preparation), as the crushing releases volatile oils.
 - Many curry recipes end with: "Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse."
 
+## Calorie reference values
+
+Use these ballpark figures when estimating `Calories/serving`. Always use values for ingredients in the state listed in the recipe (e.g. dry pulses, not cooked). Add new rows here as recipes introduce other major calorie contributors.
+
+| Ingredient | kcal/100g | kcal/100ml |
+|---|---|---|
+| Dry pulses (dal, lentils, chickpeas) | ~350 | — |
+| Fats and oils | 880 | 810 |
+| Potatoes | 80 | — |
+| Onion | 40 | — |
+| Frozen peas | 80 | — |
+
+Common trap: cooked dal is ~120 kcal/100g (water-diluted), but recipes specify dry weight — always use the ~350 kcal/100g figure.
+
 ## Processing images into markdown
 
 When converting recipe images to markdown:
