@@ -22,7 +22,7 @@ Known book IDs and their full titles:
 - `instant-pot` → *Vegetarian Indian Cooking with Your Instant Pot*
 - `online` → online sources (URLs)
 
-Recipe names in filenames should be lowercase, hyphen-separated, and use the dish's transliterated name where one exists (e.g. `baigan-bharta`, `paneer-masala`). Use the English name only if no transliterated name is given.
+Recipe names in filenames should be lowercase, hyphen-separated, and use the dish's transliterated name where one exists (e.g. `baingan-bharta`, `paneer-masala`). Use the English name only if no transliterated name is given.
 
 ## Document structure
 
@@ -78,7 +78,7 @@ The `<body>` tag must have exactly one of these classes (defined in the CSS):
 
 ## Title block
 
-- **H1 (`#`):** The recipe's primary name in sentence case — use the transliterated/original name if one is given (e.g. "Baigan bharta"), otherwise an English name.
+- **H1 (`#`):** The recipe's primary name in sentence case — use the transliterated/original name if one is given (e.g. "Baingan bharta"), otherwise an English name.
 - **H2 (`##`):** A short English description of the dish in sentence case (e.g. "Simple, twice-cooked aubergine").
 
 ## Preamble
@@ -109,7 +109,7 @@ Fields appear in this exact order. Each field is on its own line, formatted as `
       * 1 tsp ground turmeric
       * 2 tsp salt
   ```
-  Number groups sequentially if there are multiple (`**Spice mix 1:**`, `**Spice mix 2:**`). Use descriptive names where appropriate (`**Masala paste:**`, `**Paneer marinade:**`, `**Dhal mix:**`).
+  Number groups sequentially if there are multiple (`**Spice mix 1:**`, `**Spice mix 2:**`). Use descriptive names where appropriate (`**Masala paste:**`, `**Paneer marinade:**`, `**Dal mix:**`).
   Never collapse ingredients that need separate preparation into the same group.
 - **Units:** Metric primary. Use `g`, `ml`, `tsp`, `cm` for metric. Add Imperial in parentheses where helpful: `18 oz (540g)`, `475ml (16 fl oz)`. Temperatures: `200ºC/390ºF`. In the ingredients block, use `tsp` only (not `tbsp`) to avoid misreading; convert quantities above 6 tsp (i.e. above 2 tbsp) to `ml`.
 - **Special ingredient names:** Italicize transliterated names in parentheses: `250g red lentils (*masoor dal*)`.
@@ -135,7 +135,7 @@ Use `*` for both top-level bullets and sub-bullets. Indent sub-bullets by 4 spac
 - Omit parenthetical safety warnings (e.g. "take care as they will splutter") — they clutter the instructions.
 - Common preparation step: `Prepare the **spice mixes**.` (always include this when spice mixes are defined).
 - **Curry leaves** should be crushed in the hand immediately before adding to the pan (not during section A preparation), as the crushing releases volatile oils.
-- Many curry recipes end with: "Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse."
+- Many curry recipes end with: "Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse."
 
 ## Calorie reference values
 

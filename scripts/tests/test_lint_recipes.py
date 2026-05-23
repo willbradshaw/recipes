@@ -285,6 +285,63 @@ def test_canonical_indian_name_is_not_flagged(tmp_path):
     assert not any("non-canonical Indian name" in e for e in result.errors)
 
 
+# ── Filename checks ──────────────────────────────────────────────────────
+
+
+def _write_named(tmp_path: Path, name: str, content: str) -> Path:
+    p = tmp_path / name
+    p.write_text(content)
+    return p
+
+
+def test_filename_matching_h1_is_not_flagged(tmp_path):
+    # GOOD_RECIPE has H1 "Aloo gobi" → "aloo-gobi"
+    p = _write_named(tmp_path, "curry-easy_aloo-gobi.md", GOOD_RECIPE)
+    result = lint_recipes.lint_file(p)
+    assert not any("Filename" in e for e in result.errors)
+
+
+def test_filename_mismatching_h1_is_flagged(tmp_path):
+    p = _write_named(tmp_path, "curry-easy_wrong-name.md", GOOD_RECIPE)
+    result = lint_recipes.lint_file(p)
+    assert any(
+        "Filename does not match H1" in e and "curry-easy_aloo-gobi.md" in e
+        for e in result.errors
+    )
+
+
+def test_filename_without_underscore_is_skipped(tmp_path):
+    p = _write_named(tmp_path, "aloo-gobi.md", GOOD_RECIPE)
+    result = lint_recipes.lint_file(p)
+    assert not any("Filename" in e for e in result.errors)
+
+
+def test_unknown_book_id_is_flagged(tmp_path):
+    p = _write_named(tmp_path, "made-up-book_aloo-gobi.md", GOOD_RECIPE)
+    result = lint_recipes.lint_file(p)
+    assert any("Unknown book ID 'made-up-book'" in e for e in result.errors)
+
+
+def test_known_book_id_is_not_flagged(tmp_path):
+    p = _write_named(tmp_path, "curry-easy_aloo-gobi.md", GOOD_RECIPE)
+    result = lint_recipes.lint_file(p)
+    assert not any("Unknown book ID" in e for e in result.errors)
+
+
+@pytest.mark.parametrize(
+    "h1,slug",
+    [
+        ("Aloo gobi", "aloo-gobi"),
+        ("Soya & matar keema", "soya-matar-keema"),
+        ("Saag-tamatar chana dal", "saag-tamatar-chana-dal"),
+        ("Tomato kut", "tomato-kut"),
+        ("Hari chutney walay chana", "hari-chutney-walay-chana"),
+    ],
+)
+def test_h1_to_slug_conversion(h1, slug):
+    assert lint_recipes._h1_to_slug(h1) == slug
+
+
 def test_h1_equal_length_to_h2_is_ok(tmp_path):
     text = GOOD_RECIPE.replace("# Aloo gobi", "# Aloooo gobi").replace(
         "## Potato and cauliflower curry", "## Potato cauli"

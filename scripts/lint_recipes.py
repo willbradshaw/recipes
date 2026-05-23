@@ -98,6 +98,7 @@ def _load_corrections(name: str) -> tuple[dict[str, str], re.Pattern[str]]:
 
 US_TO_UK, US_TO_UK_RE = _load_corrections("us_to_uk.json")
 INDIAN_NAMES, INDIAN_NAMES_RE = _load_corrections("indian_names.json")
+BOOK_IDS: dict[str, str] = json.loads((DATA_DIR / "book_ids.json").read_text())
 
 # Proper nouns that are allowed to be capitalized mid-sentence. Extend as
 # new recipes introduce new place names, languages, or culinary traditions.
@@ -108,6 +109,7 @@ PROPER_NOUNS = {
     "brahmin",
     "british",
     "chitrapur",
+    "coorg",
     "delhi",
     "hyderabadi",
     "indian",
@@ -262,6 +264,7 @@ def lint_file(path: Path) -> LintResult:
     # ── Spelling / canonical-name checks ──────────────────────────────────
     _flag_substitutions(text, US_TO_UK, US_TO_UK_RE, "American spelling", result)
     _flag_substitutions(text, INDIAN_NAMES, INDIAN_NAMES_RE, "non-canonical Indian name", result)
+    _check_filename(path, text, result)
 
     # ── Forbidden cooking verbs in Preparation section ────────────────────
     prep_block = extract_section(text, "#### A. Preparation", "#### B. Cooking")
@@ -273,6 +276,49 @@ def lint_file(path: Path) -> LintResult:
                 )
 
     return result
+
+
+def _check_filename(path: Path, text: str, result: LintResult) -> None:
+    """Check that the recipe-name portion of the filename matches the H1.
+
+    Expected format: [book-id]_[recipe-name].md, where recipe-name is the
+    deterministic kebab-case form of the H1 title.
+    """
+    stem = path.stem  # filename without .md
+    if "_" not in stem:
+        return  # not a standard recipe filename; skip
+    book_id, recipe_name = stem.split("_", 1)
+
+    if book_id not in BOOK_IDS:
+        result.errors.append(
+            f"Unknown book ID {book_id!r}; must be one of {sorted(BOOK_IDS)}"
+        )
+
+    h1_match = re.search(r"^# (.+)$", text, re.MULTILINE)
+    if not h1_match:
+        return  # H1 missing; that error is already reported elsewhere
+
+    expected = _h1_to_slug(h1_match.group(1).strip())
+    if recipe_name != expected:
+        suggested = f"{book_id}_{expected}.md"
+        result.errors.append(
+            f"Filename does not match H1; rename to {suggested!r}"
+        )
+
+
+def _h1_to_slug(h1: str) -> str:
+    """Convert an H1 title to its canonical kebab-case filename form.
+
+    Rules: lowercase, strip italics asterisks, drop '&' and other
+    punctuation, collapse whitespace to single hyphens, preserve existing
+    hyphens.
+    """
+    s = h1.lower()
+    s = s.replace("&", " ")  # drop ampersand, gap becomes whitespace
+    s = re.sub(r"[*'\".,:;!?()]", "", s)  # strip stray punctuation
+    s = re.sub(r"\s+", "-", s.strip())  # spaces → hyphens
+    s = re.sub(r"-+", "-", s)  # collapse repeated hyphens
+    return s
 
 
 def _flag_substitutions(
