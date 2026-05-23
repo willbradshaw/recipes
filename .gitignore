@@ -3,3 +3,6 @@ image/*
 .DS_Store
 .Rhistory
 md/draft/**
+.venv/
+__pycache__/
+.pytest_cache/

@@ -1,6 +1,6 @@
 # Automatic recipe generation
 
-The purpose of this repository is to generate standardized recipes for printing and use in the kitchen, processing recipes from several different books into a common standard. The recipes are provided in image form; converted to markdown; edited by the user; then converted into PDF format via the script `recipe-pdf-generator.sh`.
+The purpose of this repository is to generate standardized recipes for printing and use in the kitchen, processing recipes from several different books into a common standard. The recipes are provided in image form; converted to markdown; edited by the user; then converted into PDF format via the script `scripts/recipe-pdf-generator.sh`.
 
 ## General guidance
 

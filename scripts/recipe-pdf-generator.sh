@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# Resolve paths relative to the repo root so this works from any CWD.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
 # Default values
-DEFAULT_OUTPUT_DIR="./pdf"
-DEFAULT_CSS="recipe-style-css.css"
+DEFAULT_OUTPUT_DIR="$REPO_ROOT/pdf"
+DEFAULT_CSS="$REPO_ROOT/recipe-style-css.css"
 
 # Function to display usage information
 usage() {
