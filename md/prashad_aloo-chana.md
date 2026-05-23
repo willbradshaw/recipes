@@ -49,7 +49,7 @@
 
 #### A. Preparation
 
-1. Boil the **potatoes** in their skins for 40 minutes or so, until a knife tip will slide in easily, then peel, cut into 2cm cubes and leave to cool.
+1. Cut the **potatoes** (skin on) into ~2cm chunks.
 2. Crush the **masala paste** ingredients together with a pestle and mortar (or a blender) to make a fine paste.
 3. Prepare the **spice mix**.
 4. Finely chop the **fresh coriander**.
@@ -57,12 +57,13 @@
 
 #### B. Cooking
 
-1. Heat the **oil** in a large pan for 1 minute over a medium heat.
-2. Add the **cumin seeds**. Fry until they start to brown (less than a minute), then reduce the heat to low.
-3. Add the **masala paste**, **fresh coriander** and **spice mix**, mix well and cook for a couple of minutes.
-4. Stir in the **chickpeas**, cover and leave to cook for 5 minutes without removing the lid. Stir, then recover and cook for a further 5 minutes.
-5. Gently fold in the **potatoes**, taking care not to break them up. Cover and cook for a further 5 minutes, stirring occasionally to prevent sticking or scorching.
-6. Stir in the **lemon juice**, then remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain and leave to cool.
+2. Heat the **oil** in a large pan for 1 minute over a medium heat.
+3. Add the **cumin seeds**. Fry until they start to brown (less than a minute), then reduce the heat to low.
+4. Add the **masala paste**, **fresh coriander** and **spice mix**, mix well and cook for a couple of minutes.
+5. Stir in the **chickpeas**, cover and leave to cook for 5 minutes without removing the lid. Stir, then recover and cook for a further 5 minutes.
+6. Gently fold in the **potatoes**, taking care not to break them up. Cover and cook for a further 5 minutes, stirring occasionally to prevent sticking or scorching.
+7. Stir in the **lemon juice**, then remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

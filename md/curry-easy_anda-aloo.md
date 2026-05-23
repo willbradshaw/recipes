@@ -52,13 +52,13 @@
 
 #### A. Preparation
 
-1. Chop the **potatoes** (unpeeled) into 2cm (¾ in) pieces.
+1. Cut the **potatoes** (skin on) into ~2cm chunks.
 2. Peel and finely chop the **onions** and **garlic**; finely chop the **green chillies**.
 3. Prepare the **spice mixes**.
 
 #### B. Cooking
 
-1. Boil the **potatoes** in salted water for about 30 minutes, until tender. Drain and set aside.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain.
 2. Hard-boil the **eggs** for 12 minutes, then peel and cut into quarters.
 3. Heat the **oil** in a medium, wide pan over medium heat.
 4. When hot, add **spice mix 1**. Let the seeds sizzle for about 10 seconds.

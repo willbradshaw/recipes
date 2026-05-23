@@ -57,7 +57,7 @@
 
 #### B. Cooking
 
-1. Boil the diced **potatoes** for about 25 minutes, until tender. Drain.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain.
 2. Heat the **oil** in a medium non-stick frying pan over medium heat.
 3. When hot, add the **cumin seeds** and let sizzle for about 10 seconds.
 4. Add the **onions**. Stir and fry for 5-6 minutes, until soft.

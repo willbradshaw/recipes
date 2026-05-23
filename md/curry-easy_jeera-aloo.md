@@ -53,7 +53,7 @@
 
 #### B. Cooking
 
-1. Boil the diced **potatoes** for about 25 minutes, until tender. Drain.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain.
 2. Heat the **oil** in a large non-stick frying pan over medium-high heat.
 3. When hot, add **spice mix 1** and allow to sizzle for a few seconds, until the dried chillies darken.
 4. Add the **green chillies** and stir for a moment.

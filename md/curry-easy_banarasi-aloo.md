@@ -55,11 +55,11 @@
 1. Prepare the **spice mixes**.
 2. Crush or finely chop the **ginger**.
 3. Finely chop the **green chillies**.
-4. Dice the **potatoes** (skin on) into pieces no larger than 1cm on any side.
+4. Cut the **potatoes** (skin on) into ~2cm chunks.
 
 #### B. Cooking
 
-1. Boil the diced **potatoes** for about 30 minutes, until tender. Drain.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain.
 2. Heat the **oil** in a large non-stick frying pan or wok over medium heat.
 3. When hot, add **spice mix 1** and stir until the mustard seeds start to pop.
 4. Add the **ginger** and **green chillies**. Stir for a few seconds.

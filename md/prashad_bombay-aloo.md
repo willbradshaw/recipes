@@ -50,19 +50,20 @@
 
 #### A. Preparation
 
-1. Boil the **potatoes** in their skins for about 40 minutes, until a knife tip slides in industry, then peel and cut into 2cm cubes.
+1. Cut the **potatoes** (skin on) into ~2cm chunks.
 2. Prepare the **spice mixes**.
 3. Finely chop the **tomatoes** and **fresh coriander**.
 
 #### B. Cooking
 
-1. Heat the **oil** in a large frying pan for 1 minute over a medium heat.
-2. Add **spice mix 1**, swirl in the oil and cook for 1 minute, until the mustard seeds start to pop.
-3. Reduce the heat to low and stir in the **asafetida**, **tomatoes** and **sugar**.
-4. Increase the heat to high and add the **tamarind**, **ginger**, **spice mix 2** and **fresh coriander**.
-5. Cover and cook for 10 minutes, then stir in the **garam masala**.
-6. Gently stir in the **potatoes**, taking care not to break them.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain.
+2. Heat the **oil** in a large frying pan for 1 minute over a medium heat.
+3. Add **spice mix 1**, swirl in the oil and cook for 1 minute, until the mustard seeds start to pop.
+4. Reduce the heat to low and stir in the **asafetida**, **tomatoes** and **sugar**.
+5. Increase the heat to high and add the **tamarind**, **ginger**, **spice mix 2** and **fresh coriander**.
+6. Cover and cook for 10 minutes, then stir in the **garam masala**.
+7. Gently stir in the **potatoes**, taking care not to break them.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

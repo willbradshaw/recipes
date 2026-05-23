@@ -54,11 +54,11 @@
 1. Peel and finely chop the **ginger**.
 2. Cut the **green chillies** into fine rounds.
 3. Top and tail the **green beans**.
-4. Cut the **potatoes** into 2.5 cm (1 inch) dice (no need to peel).
+4. Cut the **potatoes** (skin on) into ~2cm chunks.
 
 #### B. Cooking
 
-1. Boil the **potatoes** for about 30 minutes, until just tender, then drain and set aside.
+1. Boil the diced **potatoes** for 25-30 minutes, until tender. Drain.
 2. Put the **oil** in a large frying pan and set over a medium-high heat. When hot, add **spice mix 1** and let sizzle for a few seconds.
 3. Add the **ginger** and **green chillies**, lower the heat to medium-low and stir for a minute.
 4. Add the **tomato purée** and stir until the paste turns thick and dark red.

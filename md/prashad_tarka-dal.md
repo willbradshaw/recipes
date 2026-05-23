@@ -50,22 +50,22 @@
 
 #### A. Preparation
 
-1. Boil 750ml **water**.
-2. Mix the **dals** together, then rinse at least four times in warm water and drain.
-3. Prepare the **spice mixes**.
-4. Crush or finely chop the **garlic**.
-5. Finely chop the **tomatoes** and **fresh coriander**.
+1. Mix the **dals** together, then rinse at least four times in warm water and drain.
+2. Prepare the **spice mixes**.
+3. Crush or finely chop the **garlic**.
+4. Finely chop the **tomatoes** and **fresh coriander**.
 
 #### B. Cooking
 
-1. Put the **dals** in a large pan with 700ml of boiling **water**. Bring to the boil, then skim the froth from the surface.
-2. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dal is soft and cooked through, then set aside without draining.
-3. Heat the rest of the **oil** in a separate large pan over a medium heat, then add **spice mix 1** and stir through.
-4. When the mustard seeds start to pop, add the **asafetida**, then quickly reduce the heat to low.
-5. Add the **tomatoes**, **garlic**, **spice mix 2** and **fresh coriander**, then increase the heat to medium and stir for a minute.
-6. Stir in the cooked **dals** and simmer for 2 minutes.
-7. Stir in the **garam masala**, then remove from the heat.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
+1. Boil 750ml **water**.
+2. Put the **dals** in a large pan with 700ml of the boiling water. Bring to the boil, then skim the froth from the surface.
+3. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dal is soft and cooked through, then set aside without draining.
+4. Heat the rest of the **oil** in a separate large pan over a medium heat, then add **spice mix 1** and stir through.
+5. When the mustard seeds start to pop, add the **asafetida**, then quickly reduce the heat to low.
+6. Add the **tomatoes**, **garlic**, **spice mix 2** and **fresh coriander**, then increase the heat to medium and stir for a minute.
+7. Stir in the cooked **dals** and simmer for 2 minutes.
+8. Stir in the **garam masala**, then remove from the heat.
+9. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

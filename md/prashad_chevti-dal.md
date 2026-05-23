@@ -51,23 +51,23 @@
 
 #### A. Preparation
 
-1. Boil 1L **water**.
-2. Mix the **dals** together, then rinse at least four times in warm water and drain.
-3. Prepare the **spice mixes**.
-4. Crush or finely chop the **garlic**.
-5. Finely chop the **fresh coriander**.
-6. Slice the **chillies** in half lengthways and remove the pith and seeds, then chop each piece in half across the middle to produce chunks 3-4cm long.
+1. Mix the **dals** together, then rinse at least four times in warm water and drain.
+2. Prepare the **spice mixes**.
+3. Crush or finely chop the **garlic**.
+4. Finely chop the **fresh coriander**.
+5. Slice the **chillies** in half lengthways and remove the pith and seeds, then chop each piece in half across the middle to produce chunks 3-4cm long.
 
 #### B. Cooking
 
-1. Put the **dals** in a large pan with 900ml of boiling **water**. Bring to the boil, then skim the froth from the surface.
-2. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dal is soft and cooked through, stirring and adding more water half-way through.
-3. Heat the rest of the **oil** in a separate large pan over a medium heat, then add **spice mix 1** and stir through.
-4. When the mustard seeds start to pop, stir in the **asafetida** and **chillies**, then quickly reduce the heat to low.
-5. Stir in the **garlic**, **spice mix 2** and **fresh coriander**, then cook on a low heat for 3 minutes.
-6. Stir in the cooked **dals** and simmer for 3 minutes.
-7. Stir in the **butter**, then remove from the heat.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
+1. Boil 1L **water**.
+2. Put the **dals** in a large pan with 900ml of the boiling water. Bring to the boil, then skim the froth from the surface.
+3. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dal is soft and cooked through, stirring and adding more water half-way through.
+4. Heat the rest of the **oil** in a separate large pan over a medium heat, then add **spice mix 1** and stir through.
+5. When the mustard seeds start to pop, stir in the **asafetida** and **chillies**, then quickly reduce the heat to low.
+6. Stir in the **garlic**, **spice mix 2** and **fresh coriander**, then cook on a low heat for 3 minutes.
+7. Stir in the cooked **dals** and simmer for 3 minutes.
+8. Stir in the **butter**, then remove from the heat.
+9. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>
