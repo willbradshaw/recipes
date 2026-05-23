@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Bombay bataka
-## Tamarind, tomato and potato curry
+# Bombay aloo
+## Potatoes with tamarind and tomato
 </div>
 
 <div class="preamble">
@@ -33,7 +33,7 @@
     * 2 tsp turmeric
     * 2 tsp salt
 * 1 × 400g tin of peeled plum tomatoes
-* 2 handfuls fresh coriander/cilantro
+* 2 handfuls fresh coriander
 * 75ml sunflower oil
 * ½ tsp asafetida
 * 5 tsp brown sugar
@@ -62,7 +62,7 @@
 4. Increase the heat to high and add the **tamarind**, **ginger**, **spice mix 2** and **fresh coriander**.
 5. Cover and cook for 10 minutes, then stir in the **garam masala**.
 6. Gently stir in the **potatoes**, taking care not to break them.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

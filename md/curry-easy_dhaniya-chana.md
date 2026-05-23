@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Hari Chutney walay Chanay
-## Chickpeas in a fresh coriander sauce
+# Dhaniya chana
+## Chickpeas in fresh coriander sauce
 </div>
 
 <div class="preamble">
@@ -62,7 +62,7 @@
 4. Add the **spice mix** and stir for 30 seconds.
 5. Add the **chickpeas** and 200 ml water. Stir and bring to a simmer, then cover and simmer gently for 20 minutes.
 6. Stir in the **sauce paste** and bring to a simmer. Cover and cook gently for another 20 minutes.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

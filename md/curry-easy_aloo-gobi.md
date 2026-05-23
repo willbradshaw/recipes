@@ -55,7 +55,7 @@
 3. Add the **cauliflower**, then stir and cook for 6-8 minutes, until starting to brown in spots.
 4. Add the **potatoes**, then stir and cook for another 6-8 minutes, until both vegetables are well browned.
 5. Add the **spice mix** and stir-fry for 1 minute, then reduce the heat to low and cook gently for a further 2-5 minutes, until there is no liquid left in the pan.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

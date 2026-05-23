@@ -30,7 +30,7 @@
 * 6cm root ginger
 * 1 medium onion
 * 1 tin peeled or chopped tomatoes
-* 2 handfuls fresh coriander/cilantro
+* 2 handfuls fresh coriander
 * **Spice mix:**
     * 2 tsp salt
     * 2 tsp MSG
@@ -67,7 +67,7 @@
 6. Reduce the heat to low and add the **tomatoes**, **ginger**, **spice mix** and **fresh coriander**.
 7. Return the heat to high and simmer uncovered for a minute, then add the **paneer** and **butter**, plus **hot water** as needed.
 8. Cover and simmer over a low heat for 8 minutes, then stir in the **garam masala**.
-9. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+9. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

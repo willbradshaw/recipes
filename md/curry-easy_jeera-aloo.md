@@ -60,7 +60,7 @@
 5. Add the boiled potatoes. Stir and fry for a minute or two, until they brown a little.
 6. Add the **tomatoes** and **spice mix 2**. Bring to the boil, mashing up the tomatoes as you do so.
 7. Cover and simmer gently for 10 minutes.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

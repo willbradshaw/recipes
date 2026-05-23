@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Tarka dhal
-## Curried red and yellow lentils
+# Tarka dal
+## Red and yellow lentil dal
 </div>
 
 <div class="preamble">
@@ -14,7 +14,7 @@
 
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
-**Other notes:** Good, easy dhal recipe.
+**Other notes:** Good, easy dal recipe.
 </div>
 
 <div class="ingredients-container">
@@ -22,9 +22,9 @@
 ### Ingredients
 
 ::: {.ingredients}
-* **Dhal mix**:
-    - 150g *masoor dhal* (split red lentils)
-    - 150g *mung dhal*
+* **Dal mix**:
+    - 150g *masoor dal* (split red lentils)
+    - 150g *mung dal*
 * **Spice mix 1:**
     - 1 tsp cumin seeds
     - 1 tsp brown mustard seeds
@@ -36,7 +36,7 @@
     - 2 tsp red chilli powder
 * 3-5 cloves of garlic
 * 1 tin peeled or chopped tomatoes
-* 1 handful fresh coriander / cilantro
+* 1 handful fresh coriander
 * 100ml sunflower oil
 * ½ tsp asafetida
 * 1 tsp garam masala
@@ -51,21 +51,21 @@
 #### A. Preparation
 
 1. Boil 750ml **water**.
-2. Mix the **dhals** together, then rinse at least four times in warm water and drain.
+2. Mix the **dals** together, then rinse at least four times in warm water and drain.
 3. Prepare the **spice mixes**.
 4. Crush or finely chop the **garlic**.
 5. Finely chop the **tomatoes** and **fresh coriander**.
 
 #### B. Cooking
 
-1. Put the **dhals** in a large pan with 700ml of boiling **water**. Bring to the boil, then skim the froth from the surface.
-2. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dhal is soft and cooked through, then set aside without draining.
+1. Put the **dals** in a large pan with 700ml of boiling **water**. Bring to the boil, then skim the froth from the surface.
+2. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dal is soft and cooked through, then set aside without draining.
 3. Heat the rest of the **oil** in a separate large pan over a medium heat, then add **spice mix 1** and stir through.
 4. When the mustard seeds start to pop, add the **asafetida**, then quickly reduce the heat to low.
 5. Add the **tomatoes**, **garlic**, **spice mix 2** and **fresh coriander**, then increase the heat to medium and stir for a minute.
-6. Stir in the cooked **dhals** and simmer for 2 minutes.
+6. Stir in the cooked **dals** and simmer for 2 minutes.
 7. Stir in the **garam masala**, then remove from the heat.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

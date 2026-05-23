@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Baghara Baigan
-## Aubergine in a peanut & sesame sauce
+# Baghara baingan
+## Aubergine in peanut-sesame sauce
 </div>
 
 <div class="preamble">
@@ -72,7 +72,7 @@
 4. Add the **ginger** and **garlic** and cook for 2 minutes, then stir in **spice mix 2** and cook on a low heat for 8-10 minutes.
 5. Stir in the **peanut sauce** and cook on a low heat for 5 minutes, stirring regularly.
 6. Gently stir in the baked aubergine pieces and cook for 10 more minutes on a low heat.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

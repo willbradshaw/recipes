@@ -64,7 +64,7 @@
 3. Add the **tomatoes**, **spice mix 2**, **ginger** and **fresh coriander**. Stir and fry for a few minutes until the tomato thickens into a paste.
 4. Add the **cauliflower** and **peas**. Stir a few times, bring to a simmer, then lower the heat to medium-low.
 5. Cover and cook gently, stirring now and then, for about 10 minutes, or until the cauliflower is tender.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

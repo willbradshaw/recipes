@@ -1,7 +1,7 @@
 <body class="recipe-soup">
 
 <div class="title-block">
-# Gobi ka Soup
+# Gobi ka soup
 ## Cauliflower soup
 </div>
 
@@ -42,7 +42,7 @@
 * **Spice mix 3:**
     * 2 tsp salt
     * 2 tsp MSG
-* 1 generous handful fresh coriander/cilantro
+* 1 generous handful fresh coriander
 * Freshly ground black pepper
 * 2 teaspoons lime juice
 * 60ml double cream

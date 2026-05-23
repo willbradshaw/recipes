@@ -66,7 +66,7 @@
 5. Cover and cook on a low heat until the beans are tender and the sauce has thickened, about 20 minutes.
 6. If there is too much sauce, raise the heat and boil it off, stirring gently.
 7. Stir in the **garam masala**.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

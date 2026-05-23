@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Chevti dhal
-## Mixed lentil dhal
+# Chevti dal
+## Mixed lentil dal
 </div>
 
 <div class="preamble">
@@ -14,7 +14,7 @@
 
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums & dairy
 
-**Other notes:** Best dhal recipe I know of.
+**Other notes:** Best dal recipe I know of.
 </div>
 
 <div class="ingredients-container">
@@ -22,11 +22,11 @@
 ### Ingredients
 
 ::: {.ingredients}
-* **Dhal mix**:
-    - 100g *masoor dhal* (split red lentils)
-    - 100g *mung dhal*
-    - 100g *urad dhal*
-    - 100g *chana dhal*
+* **Dal mix**:
+    - 100g *masoor dal* (split red lentils)
+    - 100g *mung dal*
+    - 100g *urad dal*
+    - 100g *chana dal*
 * **Spice mix 1:**
     - 1 tsp cumin seeds
     - 1 tsp brown mustard seeds
@@ -37,7 +37,7 @@
     - 1 tsp ground cumin
     - 2 tsp red chilli powder
 * 4-6 cloves of garlic
-* 2 handfuls fresh coriander / cilantro
+* 2 handfuls fresh coriander
 * 100ml sunflower oil
 * ½ tsp asafetida
 * 3-5 fresh green chillies
@@ -52,7 +52,7 @@
 #### A. Preparation
 
 1. Boil 1L **water**.
-2. Mix the **dhals** together, then rinse at least four times in warm water and drain.
+2. Mix the **dals** together, then rinse at least four times in warm water and drain.
 3. Prepare the **spice mixes**.
 4. Crush or finely chop the **garlic**.
 5. Finely chop the **fresh coriander**.
@@ -60,14 +60,14 @@
 
 #### B. Cooking
 
-1. Put the **dhals** in a large pan with 900ml of boiling **water**. Bring to the boil, then skim the froth from the surface.
-2. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dhal is soft and cooked through, stirring and adding more water half-way through.
+1. Put the **dals** in a large pan with 900ml of boiling **water**. Bring to the boil, then skim the froth from the surface.
+2. Add a teaspoon of **oil**, then simmer three-quarters covered for about 25 minutes, until the dal is soft and cooked through, stirring and adding more water half-way through.
 3. Heat the rest of the **oil** in a separate large pan over a medium heat, then add **spice mix 1** and stir through.
 4. When the mustard seeds start to pop, stir in the **asafetida** and **chillies**, then quickly reduce the heat to low.
 5. Stir in the **garlic**, **spice mix 2** and **fresh coriander**, then cook on a low heat for 3 minutes.
-6. Stir in the cooked **dhals** and simmer for 3 minutes.
+6. Stir in the cooked **dals** and simmer for 3 minutes.
 7. Stir in the **butter**, then remove from the heat.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

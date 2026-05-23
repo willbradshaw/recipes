@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Khumbi ki tarkari
-## Wild mushroom stew with coconut sauce
+## Wild mushrooms in coconut sauce
 </div>
 
 <div class="preamble">

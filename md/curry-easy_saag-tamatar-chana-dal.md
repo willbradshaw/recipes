@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Saag-Tamatar wali Chana Dal
-## Chana Dal with Spinach & Tomato
+# Saag-tamatar chana dal
+## Chana dal with spinach & tomato
 </div>
 
 <div class="preamble">
@@ -64,7 +64,7 @@
 6. Add the **garlic** and **ginger** and stir for another 1-2 minutes.
 7. Add the **tomatoes** and stir for 5-6 minutes, until they soften, then stir in the **spinach** and **chilli powder**.
 8. Cover and cook gently for 10-12 minutes, then stir into the **dal**, adding some water if the mixture feels too thick.
-9. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+9. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

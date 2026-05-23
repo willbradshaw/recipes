@@ -1,8 +1,8 @@
 <body class="recipe-protein">
 
 <div class="title-block">
-# Soya & Wattana Keema
-## Soya mince & pea curry
+# Soya matar keema
+## Soya mince with peas
 </div>
 
 <div class="preamble">
@@ -43,7 +43,7 @@
 * 120g frozen petits pois peas
 * 125ml hot water
 * 100-120g dried soya mince
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 :::
 
 </div>
@@ -72,7 +72,7 @@
 8. Add the **peas** and **hot water** and stir through.
 9. Lower the heat to medium and cook for 4 minutes.
 10. Drain and add the **soya mince** along with the **fresh coriander**. Stir through and cook briefly.
-11. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+11. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

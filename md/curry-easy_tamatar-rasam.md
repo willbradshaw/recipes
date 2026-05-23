@@ -1,8 +1,8 @@
 <body class="recipe-soup">
 
 <div class="title-block">
-# Tomato Rasam Soup
-## Tamatar Rasam ka Soup
+# Tamatar rasam
+## South Indian tomato rasam
 </div>
 
 <div class="preamble">
@@ -22,7 +22,7 @@
 ### Ingredients
 
 ::: {.ingredients}
-* ½ cup plain tuvar dal
+* ½ cup plain toor dal
 * 1 tsp ground turmeric
 * **Paste:**
     * 3 tsp chickpea flour (besan or gram flour)
@@ -47,12 +47,12 @@
 
 #### A. Preparation
 
-1. Wash the **tuvar dal** in several changes of water and drain.
+1. Wash the **toor dal** in several changes of water and drain.
 2. Combine the **paste** ingredients in a large bowl and mix to a smooth paste.
 
 #### B. Cooking
 
-1. Put the **tuvar dal** and 1L of water in a medium pan. Bring to the boil, skim off the froth, then stir in the **turmeric**.
+1. Put the **toor dal** and 1L of water in a medium pan. Bring to the boil, skim off the froth, then stir in the **turmeric**.
 2. Partially cover the pan, lower the heat, and simmer for 40 minutes, or until the dal is soft.
 3. When the dal is cooked, add the **paste** mixture to the pan, along with additional water as needed. Re-cover the pan and simmer gently for 10 minutes.
 4. Let the soup cool for a few minutes, then blend until smooth.

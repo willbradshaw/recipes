@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Dum Aloo
-## Bay leaf infused new potato curry
+# Dum aloo
+## Bay-leaf infused new potatoes
 </div>
 
 <div class="preamble">
@@ -42,7 +42,7 @@
     * 2 tsp ground coriander
     * 1 tsp ground cumin
 * 1 tin peeled tomatoes
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 :::
 
 </div>
@@ -70,7 +70,7 @@
 7. Add the **masala paste** and **spice mix 2**, stir through and cook for 30 seconds.
 8. Add the **tomatoes**, bring to a simmer, cover and cook for 8-9 minutes.
 9. Add the **potatoes** and **fresh coriander**, reduce the heat to medium and cook covered for 4 minutes.
-10. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+10. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

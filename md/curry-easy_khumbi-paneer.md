@@ -68,7 +68,7 @@
 4. Add the **peas** and **ginger** and stir for 1 minute.
 5. Add the **paneer** cubes and **salt** and stir for 2 minutes.
 6. Add the **sauce mixture**. Stir and bring to a simmer, then heat gently for about 3 minutes, until everything is warmed through and well mixed.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

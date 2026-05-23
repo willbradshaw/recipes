@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Saadi toovar dal
-## Simple toovar dal
+# Saadi toor dal
+## Simple toor dal
 </div>
 
 <div class="preamble">
@@ -22,7 +22,7 @@
 ### Ingredients
 
 ::: {.ingredients}
-* 250g toovar dal
+* 250g toor dal
 * 2 fresh green chillies
 * **Spice mix 1:**
     * 2 tsp salt
@@ -52,7 +52,7 @@
 
 1. Place the **dal** in a medium saucepan with 1 L of water. Bring to the boil, then skim the froth from the surface. Add **spice mix 1** and the **green chillies**, stir, cover partially, and simmer gently for 40 minutes or until soft.
 2. Melt the **butter** in a small frying pan over a medium-high heat, then add **spice mix 2** and mix for several seconds, until the mustard seeds start to pop.
-3. Tip the contents of the frying pan into the dal and cover quickly to infuse the flavors. Before eating, stir and reheat.
+3. Tip the contents of the frying pan into the dal and cover quickly to infuse the flavours. Before eating, stir and reheat.
 </div>
 
 </body>

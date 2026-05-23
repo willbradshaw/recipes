@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Roz kay Chaney
-## Chickpeas in a Simple Northern Style
+# Saadi chana
+## Chickpeas, simple northern style
 </div>
 
 <div class="preamble">
@@ -55,11 +55,11 @@
 
 1. Pour the **oil** into a medium, non-stick frying pan and set over a medium heat.
 2. When hot, add the **onion** and fry for 7-8 minutes, until soft and golden.
-3. Add the **masala paste**. Continue to stir and ry for another 2-3 minutes, until the onions have picked up a little color.
+3. Add the **masala paste**. Continue to stir and ry for another 2-3 minutes, until the onions have picked up a little colour.
 4. Add the **spice mix**. Stir a few times, then add the **passata** and stir again.
 5. Add the drained **chickpeas** and **salt**. Bring to a simmer, then cover and simmer very gently for 30 minutes.
 6. Check the salt, adding a bit more if needed.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

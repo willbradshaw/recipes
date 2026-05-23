@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Mushroom palak
-## Spinach and mushroom curry
+# Palak khumbi
+## Spinach and mushrooms
 </div>
 
 <div class="preamble">
@@ -30,7 +30,7 @@
 * 450g frozen leaf spinach
 * 450g button mushrooms
 * 3 medium tomatoes
-* 1 handful fresh coriander / cilantro
+* 1 handful fresh coriander
 * **Spice mix 1:**
     * 1 teaspoon fenugreek seeds
     * 1 teaspoon brown mustard seeds
@@ -66,7 +66,7 @@
 3. Cook uncovered for 2 minutes, gently stirring, then stir in the **masala paste**, **tomatoes**, **spice mix 2** and **fresh coriander**.
 4. Stir over a medium heat for a couple of minutes, then add the **spinach**.
 5. Increase the heat to high and cook uncovered for 5-10 minutes, until the water released by the spinach and mushrooms has evaporated.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

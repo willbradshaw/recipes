@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Renghan bataka
-## Aubergine and potato curry
+# Baingan aloo
+## Aubergine and potatoes
 </div>
 
 <div class="preamble">
@@ -41,7 +41,7 @@
 * 100ml sunflower oil
 * ½ tsp asafetida
 * 3 medium tomatoes
-* 2 handfuls of fresh coriander/cilantro
+* 2 handfuls of fresh coriander
 * 150ml boiling water
 :::
 
@@ -66,7 +66,7 @@
 3. Stir in the **masala paste** and **spice mix 2**, then cook covered for 3-4 minutes over a low heat.
 4. Increase the heat to bring to a simmering boil, then simmer uncovered over a low heat again for 5-6 minutes, stirring occasionally.
 5. Stir in the **tomatoes** and **fresh coriander**, then cover the pan and simmer for a further 5 minutes, or until the potatoes are cooked through.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

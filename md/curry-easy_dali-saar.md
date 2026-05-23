@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Dali saar
-## Simple toovar dal, Saraswat Brahmin style
+## Simple toor dal, Saraswat Brahmin style
 </div>
 
 <div class="preamble">
@@ -26,7 +26,7 @@
 ### Ingredients
 
 ::: {.ingredients}
-* 450g toovar dal (*toovar dal*)
+* 450g toor dal (*toor dal*)
 * 1.5L water
 * **Spice mix 1:**
     * 1 tsp ground turmeric
@@ -64,7 +64,7 @@
 5. Add the **green chillies**, **dried red chillies** and **garlic**. Stir until the garlic pieces turn light brown on both sides.
 6. Crush the **curry leaves** in your hand and add to the pan. Stir once.
 7. Immediately tip the contents of the small pan over the dal. Cover to entrap the aromas.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

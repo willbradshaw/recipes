@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Kumme curry
-## Simple mushroom curry
+# Saadi khumbi
+## Simple mushrooms
 </div>
 
 <div class="preamble">
@@ -59,7 +59,7 @@
 3. Add the **ground coriander** and stir once.
 4. Add the **mushrooms** and their accumulated liquid. Stir over medium-high heat for about 5 minutes.
 5. Add the **water** and bring to a simmer. Cover and simmer on low heat for 10 minutes.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

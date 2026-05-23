@@ -1,7 +1,7 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Masoor dal
+# Pyaaz masoor
 ## Red lentils with cumin & shallots
 </div>
 
@@ -52,7 +52,7 @@
 1. Place the **lentils** in a medium saucepan with 1 L of water. Bring to the boil, then skim the froth from the surface and add the **turmeric**. Stir, cover partially, and simmer gently for 1 hour or until soft, then stir in the **butter** and **spice mix**.
 2. Heat the **oil** in a frying pan over a medium heat. When hot, add the **asafoetida**, then a few seconds later, the **cumin seeds**. Allow to sizzle for a few seconds, then add the **dried chillies** and fry until they darken.
 3. Increase the heat to high, add the **shallots** and fry until dark brown & crispy.
-4. Tip the contents of the frying pan over the lentils and cover immediately to entrap the aromas. Leave covered for several minutes to allow the flavors to infuse.
+4. Tip the contents of the frying pan over the lentils and cover immediately to entrap the aromas. Leave covered for several minutes to allow the flavours to infuse.
 
 </div>
 </body>

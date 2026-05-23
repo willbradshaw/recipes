@@ -1,8 +1,8 @@
 <body class="recipe-protein">
 
 <div class="title-block">
-# Paneer Tikka Masala
-## Indian cottage cheese in a creamy tomato sauce
+# Paneer tikka masala
+## Paneer in creamy tomato sauce
 </div>
 
 <div class="preamble">
@@ -71,6 +71,6 @@
 5. Do a quick pressure release, open the lid, and press the sauté button again.
 6. Meanwhile, pour **oil** into a large pan until about 1 cm deep and heat over a high heat, then fry the marinated **paneer** cubes until golden brown on all sides.
 7. Add the **cream** and **paneer** cubes to the Instant Pot and simmer for 2-3 minutes, then stir in the **fresh coriander**.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 </div>
 </body>

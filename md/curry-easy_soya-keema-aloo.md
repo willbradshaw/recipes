@@ -40,7 +40,7 @@
     * 1 tsp ground turmeric
     * 2 tsp red chilli powder
     * 3 tsp ground coriander
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 * 125ml vegetable oil
 * ½ tsp ground asafoetida
 * 1 × 400g tin of peeled or chopped tomatoes

@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Rajma
-## Classic Punjabi-style kidney bean curry
+## Kidney beans, classic Punjabi style
 </div>
 
 <div class="preamble">
@@ -14,7 +14,7 @@
 
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
-**Other notes:** One of my favorite recipes from this book.
+**Other notes:** One of my favourite recipes from this book.
 </div>
 
 <div class="ingredients-container">
@@ -67,7 +67,7 @@ thoroughly rinsed and drained
 5. Add the **masala paste**, **spice mix** and **fresh coriander**, then cook uncovered for 1 minute.
 6. Add the **hot water** and cook covered for 2 minutes.
 7. Add the **kidney beans** and cook covered for 3 minutes.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

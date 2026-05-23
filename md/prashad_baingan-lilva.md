@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Renghan lilva
-## Aubergine and broad bean curry
+# Baingan lilva
+## Aubergine and broad beans
 </div>
 
 <div class="preamble">
@@ -64,7 +64,7 @@
 3. Add **spice mix 2** and stir briefly, then stir in the **masala paste**, **beans**, **aubergines** and half the **fresh coriander**, plus water if needed to bring up the volume.
 4. Cover the pan and bring the mixture to the boil, then reduce the heat to low and simmer for 5-6 minutes.
 5. Stir in the **tomatoes** and the rest of the **fresh coriander**, then re-cover and cook for a further 5 minutes.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

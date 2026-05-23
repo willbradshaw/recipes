@@ -1,8 +1,8 @@
 <body class="recipe-soup">
 
 <div class="title-block">
-# Lal Mirch aur Tamatar ka Soup
-## Red Pepper & Tomato Soup
+# Tamatar ka soup
+## Red pepper & tomato soup
 </div>
 
 <div class="preamble">

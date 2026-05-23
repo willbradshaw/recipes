@@ -1,8 +1,8 @@
 <body class="recipe-protein">
 
 <div class="title-block">
-# Mattar paneer
-## Sweet and spicy cheese and peas
+# Matar paneer
+## Sweet and spicy paneer with peas
 </div>
 
 <div class="preamble">
@@ -31,7 +31,7 @@
 * 6 tsp root ginger
 * 1 tsp cumin seeds
 * 1 tin peeled or chopped tomatoes
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 * **Spice mix:**
     * 2 tsp red chilli powder
     * 2 tsp turmeric
@@ -65,7 +65,7 @@
 5. Reduce the heat to low and stir in the **tomatoes**, **ginger**, **spice mix** and **fresh coriander**.
 6. Mix well and cook for a minute, then add the **paneer** and **peas**.
 7. Increase the heat to high, then cook three-quarters covered for 8-10 minutes.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

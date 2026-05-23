@@ -1,8 +1,8 @@
 <body class="recipe-protein">
 
 <div class="title-block">
-# Tomato Kut
-## Eggs in a Hyderabadi Tomato Sauce
+# Tamatar kut
+## Eggs in Hyderabadi tomato sauce
 </div>
 
 <div class="preamble">
@@ -64,7 +64,7 @@
 4. Heat half the **oil** in a medium frying pan over a medium heat. When hot, add half the crushed **curry leaves**, followed by the **masala paste**. Stir a few times, then turn the heat to low and add the **spice mix**, followed by the sauce mixture.
 5. Bring to a boil, stirring constantly, then lower the heat and simmer gently for 10 minutes, stirring now and then. Check the **salt**.
 6. Heat the rest of the **oil** in a small frying pan on a medium-high heat. When hot, stir in **spice mix 2** and stir until the chillies start to brown. Throw in the rest of the **curry leaves**, stir briefly, then quickly empty the contents of the pan evenly over the sauce.
-7. Gently stir the **eggs** into the sauce, then remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Gently stir the **eggs** into the sauce, then remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

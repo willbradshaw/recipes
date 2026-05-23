@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Kodava Mushroom Curry
-## Mushroom curry with coconut
+# Kodava khumbi
+## Mushrooms with coconut
 </div>
 
 <div class="preamble">
@@ -62,7 +62,7 @@
 5. Add the thin **coconut milk**, bring to a simmer, and cook uncovered for 10 minutes.
 6. Stir in the thick **coconut cream**, then reduce the heat to very low and simmer uncovered for 2 minutes.
 7. Take the pan off the heat and stir in 50 ml of **lime juice**.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

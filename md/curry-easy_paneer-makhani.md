@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Paneer makhani
-## Paneer in a butter-tomato sauce
+## Paneer in butter-tomato sauce
 </div>
 
 <div class="preamble">
@@ -59,7 +59,7 @@
 2. Add the **paneer** to the pan and fry until they are browned on at least two sides.
 3. Pour the tomato sauce over the top and stir to mix.
 4. Bring to a simmer, then heat very gently for 4-5 minutes, stirring gently.
-5. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+5. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

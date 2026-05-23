@@ -36,7 +36,7 @@
 
 1. Combine all ingredients in a blender.
 2. Blend on high speed until smooth.
-3. Check flavor and add sugar as needed. If more volume is needed, add yoghurt and milk in equal measure.
+3. Check flavour and add sugar as needed. If more volume is needed, add yoghurt and milk in equal measure.
 4. Refrigerate for at least 2 hours to cool.
 
 </div>

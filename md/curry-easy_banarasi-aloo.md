@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Banarasi aloo
-## Potatoes cooked in a Banarasi style
+## Potatoes, Banarasi style
 </div>
 
 <div class="preamble">
@@ -40,7 +40,7 @@
     * 3 tsp salt
     * 3 tsp MSG
 * 1350g waxy potatoes
-* 4 tsp ground amchur (*amchoor*)
+* 4 tsp ground amchur (*amchur*)
 * 2 tsp garam masala
 :::
 
@@ -66,7 +66,7 @@
 5. Add **spice mix 2**. Stir once.
 6. Add the boiled potatoes. Stir and fry for about a minute, until well coated.
 7. Add the **amchur** and **garam masala**. Stir gently and cook for another minute.
-8. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

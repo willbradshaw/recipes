@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Aloo chana
-## Garlicky chickpea and potato curry
+## Garlicky chickpeas and potatoes
 </div>
 
 <div class="preamble">
@@ -62,7 +62,7 @@
 3. Add the **masala paste**, **fresh coriander** and **spice mix**, mix well and cook for a couple of minutes.
 4. Stir in the **chickpeas**, cover and leave to cook for 5 minutes without removing the lid. Stir, then recover and cook for a further 5 minutes.
 5. Gently fold in the **potatoes**, taking care not to break them up. Cover and cook for a further 5 minutes, stirring occasionally to prevent sticking or scorching.
-6. Stir in the **lemon juice**, then remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Stir in the **lemon juice**, then remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

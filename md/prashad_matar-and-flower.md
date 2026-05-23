@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Wattana and flower
-## Pea and cauliflower curry
+# Matar and flower
+## Peas and cauliflower
 </div>
 
 <div class="preamble">
@@ -29,7 +29,7 @@
 * 250g frozen petits pois peas
 * 1 medium cauliflower
 * 2 medium fresh tomatoes
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 * **Spice mix 1:**
     * 1 tsp cumin seeds
     * 1 tsp brown mustard seeds
@@ -63,7 +63,7 @@
 3. Add the **cauliflower**, then increase the heat to medium and add the **masala paste** and **spice mix 2**.
 4. Cover and cook for 10 minutes, stirring every few minutes.
 5. Stir in the **peas**, **tomatoes** and **fresh coriander**, then re-cover and cook for 5 more minutes.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

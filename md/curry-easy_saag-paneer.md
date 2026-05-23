@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Saag paneer
-## Spinach with fresh Indian cheese
+## Spinach with paneer
 </div>
 
 <div class="preamble">
@@ -68,7 +68,7 @@
 4. Stir in the **spice mix**.
 5. Pour in the blended mixture, then add the **paneer** along with any salt left in the bowl.
 6. Stir and bring to a simmer, then cook over low heat for about 10 minutes, stirring gently now and then.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

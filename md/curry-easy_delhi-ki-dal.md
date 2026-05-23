@@ -26,10 +26,10 @@
 ### Ingredients
 
 ::: {.ingredients}
-* **Dhal mix:**
+* **Dal mix:**
     * 200g mung beans
     * 100g red lentils (*masoor dal*)
-    * 100g toovar dal
+    * 100g toor dal
 * 1.5L water
 * **Spice mix 1:**
     * 1 tsp ground turmeric
@@ -51,16 +51,16 @@
 #### A. Preparation
 
 1. Prepare the **spice mixes**.
-2. Wash the **dhal mix** several times in warm water until the water runs clear. Drain.
+2. Wash the **dal mix** several times in warm water until the water runs clear. Drain.
 
 #### B. Cooking
 
-1. Place the **dhal mix** in a heavy-based pan with the **water**. Bring to the boil, skimming off any froth that rises to the surface.
+1. Place the **dal mix** in a heavy-based pan with the **water**. Bring to the boil, skimming off any froth that rises to the surface.
 2. Stir in **spice mix 1**. Reduce the heat to low, partially cover, and cook for 45-60 minutes, until the dals are very soft.
 3. Heat the **oil** in a small frying pan over medium-high heat.
 4. When hot, add **spice mix 2**. Let the seeds sizzle for a few seconds and the chillies darken on all sides.
 5. Immediately tip the contents of the small pan over the dal and cover to entrap the aromas.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

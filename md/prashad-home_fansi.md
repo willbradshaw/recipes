@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Fansi
-## Tomato, carom and green bean curry
+## Green beans with tomato and carom
 </div>
 
 <div class="preamble">
@@ -36,7 +36,7 @@
     - 2 tsp ground coriander
     - ½ tsp ground cumin
 * 2 medium vine tomatoes, or 1 tin chopped or peeled
-* 2 handfuls fresh coriander/cilantro
+* 2 handfuls fresh coriander
 :::
 
 </div>
@@ -62,7 +62,7 @@
 10. Cover and cook on a medium heat for 7 minutes, stirring every few minutes.
 11. Stir in the **tomatoes** and **fresh coriander**.
 12. Re-cover, reduce the heat to low and cook for a further 7 minutes.
-13. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+13. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

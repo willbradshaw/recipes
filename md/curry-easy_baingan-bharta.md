@@ -1,7 +1,7 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Baigan bharta
+# Baingan bharta
 ## Simple, twice-cooked aubergine
 </div>
 
@@ -35,7 +35,7 @@
     * 1-2 fresh green chillies
 * 1 medium onion (200-250g)
 * 2-3 medium tomatoes (300-400g)
-* 1 handful fresh coriander / cilantro
+* 1 handful fresh coriander
 :::
 
 </div>

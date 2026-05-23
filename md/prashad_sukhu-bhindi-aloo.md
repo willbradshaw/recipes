@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Sukhu bhinda bataka
-## Mustard seed, okra and potato curry
+# Sukhu bhindi aloo
+## Okra and potatoes with mustard seeds
 </div>
 
 <div class="preamble">
@@ -38,7 +38,7 @@
     * 3 tsp ground coriander
     * 1 tsp ground cumin
     * 1 tsp red chilli powder
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 * 125ml sunflower oil
 * ½ tsp asafetida
 :::
@@ -65,7 +65,7 @@
 4. Gently stir in **spice mix 2**, then cover the pan and leave to cook for 3 minutes.
 5. Gently stir in the **masala paste**, **spice mix 3** and the **fresh coriander**, being careful not to break the delicate okra.
 6. Cover and cook until the potatoes are cooked through (about 5 minutes).
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

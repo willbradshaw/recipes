@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Ghuvar
-## Carom, onion and green bean curry
+## Green beans with carom and onion
 </div>
 
 <div class="preamble">
@@ -25,7 +25,7 @@
 * 600g green string beans
 * 1 large onion
 * 3 medium tomatoes
-* 1 handful fresh coriander/cilantro
+* 1 handful fresh coriander
 * 5cm root ginger
 * **Spice mix:**
     * 3 teaspoons red chilli powder
@@ -62,7 +62,7 @@
 5. Stir in the **ginger**, **spice mix** and **fresh coriander**.
 6. Increase the heat to bring back to the boil, then cover and simmer over a low heat for 4-5 minutes, stirring occasionally to prevent sticking.
 7. Stir in the **tomato**, cover the pan again, and cook for a further 15 minutes, or until the beans are cooked through, still stirring occasionally.
-8. Remove from the heat and leave covered for at least 15 minutes to allow the flavors to infuse.
+8. Remove from the heat and leave covered for at least 15 minutes to allow the flavours to infuse.
 
 </div>
 </body>

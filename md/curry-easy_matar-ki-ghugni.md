@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Matar ki ghugni
-## Peas and potatoes cooked in a Bihari style
+## Peas and potatoes, Bihari style
 </div>
 
 <div class="preamble">
@@ -63,7 +63,7 @@
 4. Add the **onions**. Stir and fry for 5-6 minutes, until soft.
 5. Add the **ginger**, **green chillies** and **turmeric**. Stir for a minute.
 6. Add the **peas**, boiled potatoes and **spice mix**. Stir for 2-3 minutes, sprinkling with a little water if the peas get too dry.
-7. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+7. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

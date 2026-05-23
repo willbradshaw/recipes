@@ -1,8 +1,8 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Kehra na reveya
-## Green banana satay
+# Kela satay
+## Banana satay
 </div>
 
 <div class="preamble">

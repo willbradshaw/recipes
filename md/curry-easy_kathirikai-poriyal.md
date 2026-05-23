@@ -55,7 +55,7 @@
 2. As soon as they start to pop, crush the **curry leaves** lightly in your hand and add them. Quickly follow with the **onions**. Stir-fry for 3-4 minutes, until lightly browned at the edges.
 3. Drain and pat dry the **aubergines**, then add to the pan. Stir for a minute.
 4. Add the **spice mix**. Stir to combine, then cover. Cook for about 6 minutes, then check and stir. Cover and repeat a few times, for 20-25 minutes total.
-5. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+5. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

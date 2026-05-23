@@ -1,7 +1,7 @@
 <body class="recipe-vegetable">
 
 <div class="title-block">
-# Ferar bataka
+# Ferar aloo
 ## Ginger-chilli peanuts and potatoes
 </div>
 
@@ -54,7 +54,7 @@
 3. Increase the heat to low/medium, then stir in the **spice mix**
 4. Stir and fry for 2 minutes, then gently stir in the **potatoes** until they are coated in the spiced butter. 
 5. Cover the pan and leave to cook over a low heat for 2 minutes.
-6. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+6. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

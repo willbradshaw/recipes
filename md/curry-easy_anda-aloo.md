@@ -2,7 +2,7 @@
 
 <div class="title-block">
 # Anda aloo
-## Coorg-style egg curry with potatoes
+## Eggs and potatoes, Coorg style
 </div>
 
 <div class="preamble">
@@ -66,7 +66,7 @@
 6. Add the **garlic** and **green chillies** and stir for 2 minutes.
 7. Add the **tomatoes** and **spice mix 2**. Bring to a simmer, then cover and simmer very gently for about 20 minutes.
 8. Add the **coconut milk**, potatoes and eggs. Bring to a simmer, then cook uncovered over very low heat for about 5 minutes, stirring now and then. If the sauce seems too thick, add a few tablespoons of water.
-9. Remove from the heat and leave covered for at least 10 minutes to allow the flavors to infuse.
+9. Remove from the heat and leave covered for at least 10 minutes to allow the flavours to infuse.
 
 </div>
 </body>

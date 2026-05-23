@@ -1,8 +1,8 @@
 <body class="recipe-pulse">
 
 <div class="title-block">
-# Tuvar dal with spinach
-## Palakura pappu
+# Palakura pappu
+## Toor dal with spinach
 </div>
 
 <div class="preamble">
@@ -26,7 +26,7 @@
 ### Ingredients
 
 ::: {.ingredients}
-* 400g tuvar dal
+* 400g toor dal
 * 200g frozen spinach
 * 2 medium onions
 * 2-4 fresh hot green chillies
@@ -54,7 +54,7 @@
 
 #### A. Preparation
 
-1. Soak the **toovar dal** in a generous covering of water for about 1 hour, then drain.
+1. Soak the **toor dal** in a generous covering of water for about 1 hour, then drain.
 2. Soak the **spinach** in water until thawed, then drain.
 3. Finely chop the **onion**.
 4. Slice the **green chillies** into thin rings.
@@ -70,7 +70,7 @@
 5. Add the **garlic** to the frying pan and stir fry until lightly browned.
 6. Crush the **curry leaves** lightly in your hand, then add to the frying pan.
 7. Quickly tip the contents of the frying pan over the dal, then quickly cover to entrap the aromas.
-8. Allow to sit for at least 15 minutes for the flavors to infuse.
+8. Allow to sit for at least 15 minutes for the flavours to infuse.
 
 </div>
 </body>
