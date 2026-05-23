@@ -30,8 +30,14 @@ VALID_BODY_CLASSES = {
     "recipe-sweet",
 }
 
-REQUIRED_FIELDS = ["Source", "Rating", "Servings", "Dietary requirements"]
-RECOMMENDED_FIELDS = ["Complexity", "Calories/serving"]
+REQUIRED_FIELDS = [
+    "Source",
+    "Rating",
+    "Complexity",
+    "Servings",
+    "Calories/serving",
+    "Dietary requirements",
+]
 FIELD_ORDER = [
     "Source",
     "Rating",
@@ -86,11 +92,10 @@ SOURCE_URL_RE = re.compile(r"^https?://\S+$")
 class LintResult:
     path: Path
     errors: list[str] = field(default_factory=list)
-    warnings: list[str] = field(default_factory=list)
 
     @property
     def ok(self) -> bool:
-        return not self.errors and not self.warnings
+        return not self.errors
 
 
 def lint_file(path: Path) -> LintResult:
@@ -150,15 +155,12 @@ def lint_file(path: Path) -> LintResult:
     for f in REQUIRED_FIELDS:
         if f not in fields:
             result.errors.append(f"Missing required preamble field: {f}")
-    for f in RECOMMENDED_FIELDS:
-        if f not in fields:
-            result.warnings.append(f"Missing recommended preamble field: {f}")
 
     # Field order
     present = [f for f in FIELD_ORDER if f in fields]
     actual_order = [name for name, _ in iter_preamble_in_order(text) if name in FIELD_ORDER]
     if actual_order != present:
-        result.warnings.append(
+        result.errors.append(
             f"Preamble fields out of order: got {actual_order}, expected {present}"
         )
 
@@ -315,29 +317,25 @@ def main() -> int:
         return 0
 
     total_errors = 0
-    total_warnings = 0
     files_with_issues = 0
 
     for p in paths:
         result = lint_file(p)
         total_errors += len(result.errors)
-        total_warnings += len(result.warnings)
 
-        if result.errors or result.warnings:
+        if result.errors:
             files_with_issues += 1
             rel = p.relative_to(REPO_ROOT) if p.is_relative_to(REPO_ROOT) else p
             print(f"\n{rel}")
             for e in result.errors:
-                print(f"  ERROR:   {e}")
-            for w in result.warnings:
-                print(f"  WARNING: {w}")
+                print(f"  {e}")
         elif not args.quiet:
             rel = p.relative_to(REPO_ROOT) if p.is_relative_to(REPO_ROOT) else p
             print(f"OK  {rel}")
 
     print(
         f"\n{len(paths)} files checked, {files_with_issues} with issues "
-        f"({total_errors} errors, {total_warnings} warnings)"
+        f"({total_errors} errors)"
     )
     return 1 if total_errors else 0
 

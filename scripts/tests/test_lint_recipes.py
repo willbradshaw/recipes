@@ -77,7 +77,6 @@ def write(tmp_path: Path, content: str) -> Path:
 def test_good_recipe_passes(tmp_path):
     result = lint_recipes.lint_file(write(tmp_path, GOOD_RECIPE))
     assert result.errors == []
-    assert result.warnings == []
 
 
 # ── Frontmatter / preamble fields ────────────────────────────────────────
@@ -88,14 +87,6 @@ def test_missing_required_field_is_error(tmp_path, field_name):
     text = GOOD_RECIPE.replace(f"**{field_name}:**", f"**MISSING_{field_name}:**")
     result = lint_recipes.lint_file(write(tmp_path, text))
     assert any(f"Missing required preamble field: {field_name}" in e for e in result.errors)
-
-
-@pytest.mark.parametrize("field_name", lint_recipes.RECOMMENDED_FIELDS)
-def test_missing_recommended_field_is_warning(tmp_path, field_name):
-    text = GOOD_RECIPE.replace(f"**{field_name}:**", f"**MISSING_{field_name}:**")
-    result = lint_recipes.lint_file(write(tmp_path, text))
-    assert any(field_name in w for w in result.warnings)
-    assert not any(f"Missing required preamble field: {field_name}" in e for e in result.errors)
 
 
 def test_invalid_rating_is_error(tmp_path):
