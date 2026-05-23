@@ -12,6 +12,8 @@
 
 **Servings:** 5
 
+**Calories/serving:** 245
+
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
 **Other notes:** Simple, but has a long cook time.

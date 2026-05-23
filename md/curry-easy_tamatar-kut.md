@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 590
+
 **Dietary requirements:** Vegetarian, gluten-free, contains eggs & alliums
 
 **Other notes:** N/A

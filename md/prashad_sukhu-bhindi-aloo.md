@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 410
+
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
 **Other notes:** Wash okra and check for quality before drying.

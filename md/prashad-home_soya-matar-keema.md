@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 335
+
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
 **Other notes:** Okay as a high-protein change from paneer. Don't overdo the soya mince.

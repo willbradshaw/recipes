@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 145
+
 **Dietary requirements:** Vegan, gluten-free, no major allergens
 
 **Other notes:** Not a fan of this one

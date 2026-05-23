@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 410
+
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums & dairy
 
 **Other notes:** Surprisingly good for how simple it is

@@ -12,6 +12,8 @@
 
 **Servings:** 6
 
+**Calories/serving:** 205
+
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums
 
 **Other notes:** Tasty but time-consuming. Don't overdo the salt.

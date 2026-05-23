@@ -1,0 +1,34 @@
+{
+  "Dry pulses (dal, lentils, chickpeas)":      {"per_100g": 350},
+  "Tinned chickpeas (drained)":                {"per_100g": 90},
+
+  "Fats and oils (incl. butter, ghee)":        {"per_100g": 880, "per_100ml": 810},
+
+  "Potatoes":                                  {"per_100g": 80},
+  "Onion":                                     {"per_100g": 40},
+  "Tomatoes (fresh or tinned)":                {"per_100g": 20},
+  "Mushrooms":                                 {"per_100g": 20},
+  "Aubergine":                                 {"per_100g": 25},
+  "Cauliflower":                               {"per_100g": 25},
+  "Spinach (fresh or frozen)":                 {"per_100g": 25},
+  "Frozen peas":                               {"per_100g": 80},
+  "Green beans":                               {"per_100g": 30},
+  "Okra (bhindi)":                             {"per_100g": 35},
+  "Broad beans / lilva":                       {"per_100g": 100},
+  "Banana":                                    {"per_100g": 90},
+
+  "Paneer":                                    {"per_100g": 320},
+  "Whole milk":                                {"per_100ml": 60},
+  "Full-fat yoghurt":                          {"per_100g": 60},
+  "Heavy/double cream":                        {"per_100ml": 350},
+
+  "Eggs (whole)":                              {"per_100g": 155},
+  "Soya mince (dry)":                          {"per_100g": 350},
+  "Peanuts (raw)":                             {"per_100g": 570},
+  "Cashews (raw)":                             {"per_100g": 550},
+  "Sesame seeds":                              {"per_100g": 570},
+
+  "Sugar":                                     {"per_100g": 400},
+  "Coconut milk (full-fat tinned)":            {"per_100ml": 175},
+  "Calorie-containing spices (general)":       {"per_100g": 100}
+}

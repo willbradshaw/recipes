@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 600
+
 **Dietary requirements:** Vegetarian, gluten-free, contains peanuts
 
 **Other notes:** Quick, easy, very tasty

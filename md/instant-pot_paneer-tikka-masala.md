@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 760
+
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums & dairy
 </div>
 

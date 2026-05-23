@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 310
+
 **Dietary requirements:** Vegan, gluten-free, no major allergens
 
 **Other notes:** I prefer the other green bean carom recipe from *Prashad*, but this one is allium-free.

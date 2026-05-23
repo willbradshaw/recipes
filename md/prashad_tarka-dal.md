@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 500
+
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
 **Other notes:** Good, easy dal recipe.

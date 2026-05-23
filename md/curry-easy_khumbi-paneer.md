@@ -14,7 +14,7 @@
 
 **Servings:** 6
 
-**Calories/serving:** 488
+**Calories/serving:** 470
 
 **Dietary requirements:** Vegetarian, gluten-free, contains dairy
 </div>

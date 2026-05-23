@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 850
+
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums
 
 **Other notes:** Excellent paneer recipe. For best results, cook the onions until they're almost burnt.

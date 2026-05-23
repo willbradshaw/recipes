@@ -12,6 +12,8 @@
 
 **Servings:** 4-6
 
+**Calories/serving:** 520
+
 **Dietary requirements:** Vegetarian, gluten-free, contains dairy
 
 **Other notes:** Very quick and easy, great taste-to-effort ratio

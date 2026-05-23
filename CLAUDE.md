@@ -139,17 +139,14 @@ Use `*` for both top-level bullets and sub-bullets. Indent sub-bullets by 4 spac
 
 ## Calorie reference values
 
-Use these ballpark figures when estimating `Calories/serving`. Always use values for ingredients in the state listed in the recipe (e.g. dry pulses, not cooked). Add new rows here as recipes introduce other major calorie contributors.
+Per-ingredient kcal/100g and kcal/100ml values live in `scripts/data/calorie_values.json`. Use these ballparks when estimating `Calories/serving`. Add new entries to the JSON as recipes introduce other major calorie contributors.
 
-| Ingredient | kcal/100g | kcal/100ml |
-|---|---|---|
-| Dry pulses (dal, lentils, chickpeas) | ~350 | — |
-| Fats and oils | 880 | 810 |
-| Potatoes | 80 | — |
-| Onion | 40 | — |
-| Frozen peas | 80 | — |
-
-Common trap: cooked dal is ~120 kcal/100g (water-diluted), but recipes specify dry weight — always use the ~350 kcal/100g figure.
+Notes:
+- Always use values for ingredients in the state listed in the recipe (e.g. dry pulses, not cooked).
+- Common trap: cooked dal is ~120 kcal/100g (water-diluted), but recipes specify dry weight — always use the dry value (~350 kcal/100g).
+- Salt and MSG are zero calories. Other dry spices average ~100 kcal/100g, but they're used in tiny amounts (~5 kcal per tsp).
+- Tamarind is treated as a spice for calorie purposes.
+- Flapjack-specific ingredients (oats, golden syrup, plain flour) are calculated in that one recipe rather than added to the reference.
 
 ## Processing images into markdown
 

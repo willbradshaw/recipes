@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 495
+
 **Dietary requirements:** Vegan, gluten-free, contains alliums
 
 **Other notes:** Not bad, but not worth the effort.

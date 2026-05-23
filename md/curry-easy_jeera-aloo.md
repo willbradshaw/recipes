@@ -15,7 +15,7 @@
 
 **Servings:** 6
 
-**Calories/serving:** 360
+**Calories/serving:** 330
 
 **Dietary requirements:** Vegan, gluten-free, no major allergens
 

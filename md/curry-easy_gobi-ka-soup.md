@@ -12,6 +12,8 @@
 
 **Servings:** 4
 
+**Calories/serving:** 245
+
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums & dairy
 
 **Other notes:** Solidly meh

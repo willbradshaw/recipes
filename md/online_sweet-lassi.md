@@ -12,6 +12,8 @@
 
 **Servings:** 6
 
+**Calories/serving:** 430
+
 **Dietary requirements:** Vegetarian, contains dairy
 
 **Other notes:** Simple and tasty. Getting the right consistency can be tricky, still need to experiment.

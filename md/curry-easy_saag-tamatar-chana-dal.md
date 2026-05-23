@@ -12,6 +12,8 @@
 
 **Servings:** 6
 
+**Calories/serving:** 475
+
 **Dietary requirements:** Vegetarian, gluten-free, contains alliums and pulses
 
 **Other notes:** Good recipe, but time-consuming

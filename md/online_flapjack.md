@@ -12,6 +12,8 @@
 
 **Servings:** 6
 
+**Calories/serving:** 930
+
 **Dietary requirements:** Vegetarian, contains dairy
 
 **Other notes:** Simple and tasty, heavily adapted.
