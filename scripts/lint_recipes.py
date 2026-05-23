@@ -75,8 +75,14 @@ FORBIDDEN_PREP_WORDS = [
     "baked",
     "baking",
 ]
+# Nouns that follow these gerunds to form cookware/state phrases ("roasting tin",
+# "frying pan", "boiling water"). When a forbidden word is followed by one of
+# these, treat it as an adjective rather than a cooking action.
+COOKWARE_NOUNS = ("tin", "pan", "tray", "dish", "sheet", "paper", "rack", "water")
+
 FORBIDDEN_PREP_RE = re.compile(
-    r"\b(" + "|".join(re.escape(w) for w in FORBIDDEN_PREP_WORDS) + r")\b",
+    r"\b(" + "|".join(re.escape(w) for w in FORBIDDEN_PREP_WORDS) + r")\b"
+    r"(?!\s+(?:" + "|".join(COOKWARE_NOUNS) + r")\b)",
     re.IGNORECASE,
 )
 

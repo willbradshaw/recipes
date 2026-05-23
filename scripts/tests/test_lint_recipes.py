@@ -220,6 +220,28 @@ def test_cooking_verb_in_cooking_section_is_ok(tmp_path):
     assert not any("Preparation section" in e for e in result.errors)
 
 
+@pytest.mark.parametrize(
+    "phrase",
+    [
+        "place in a roasting tin",
+        "use a frying pan",
+        "line a baking tray",
+        "put on a baking sheet",
+        "place on baking paper",
+        "set on a roasting rack",
+        "cover with boiling water",
+    ],
+)
+def test_cookware_phrase_in_prep_is_ok(tmp_path, phrase):
+    # Gerunds used as adjectives for cookware/state nouns should not be flagged.
+    text = GOOD_RECIPE.replace(
+        "2. Cut the **cauliflower** into florets.",
+        f"2. Cut the **cauliflower** into florets.\n3. Prepare the dish; {phrase}.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("Preparation section" in e for e in result.errors)
+
+
 # ── High-level structure ──────────────────────────────────────────────────
 
 
