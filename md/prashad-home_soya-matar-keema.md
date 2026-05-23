@@ -10,6 +10,8 @@
 
 **Rating:** ★★★☆☆
 
+**Complexity:** ●●○○○
+
 **Servings:** 4
 
 **Calories/serving:** 335

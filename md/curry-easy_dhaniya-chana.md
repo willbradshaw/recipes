@@ -10,6 +10,8 @@
 
 **Rating:** ★★★☆☆
 
+**Complexity:** ●●○○○
+
 **Servings:** 5
 
 **Calories/serving:** 245
