@@ -86,6 +86,27 @@ FORBIDDEN_PREP_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Proper nouns that are allowed to be capitalized mid-sentence. Extend as
+# new recipes introduce new place names, languages, or culinary traditions.
+PROPER_NOUNS = {
+    "anya",  # potato variety
+    "banarasi",
+    "bihari",
+    "brahmin",
+    "british",
+    "chitrapur",
+    "delhi",
+    "hyderabadi",
+    "indian",
+    "kannada",
+    "kodava",
+    "konkan",
+    "nadu",
+    "punjabi",
+    "saraswat",
+    "tamil",
+}
+
 RATING_RE = re.compile(r"^[★☆]{5}$")
 COMPLEXITY_RE = re.compile(r"^[●○]{5}$")
 SERVINGS_RE = re.compile(r"^\d+(\s*[-–]\s*\d+)?$")
@@ -142,7 +163,7 @@ def lint_file(path: Path) -> LintResult:
             result.errors.append(
                 f"H1 title is {len(title)} chars; max {MAX_TITLE_CHARS}: {title!r}"
             )
-        if not is_sentence_case(title):
+        if not is_sentence_case(title, allow_proper_nouns=False):
             result.errors.append(f"H1 title is not in sentence case: {title!r}")
 
     if not h2_match:
@@ -153,8 +174,17 @@ def lint_file(path: Path) -> LintResult:
             result.errors.append(
                 f"H2 subtitle is {len(subtitle)} chars; max {MAX_SUBTITLE_CHARS}: {subtitle!r}"
             )
-        if not is_sentence_case(subtitle):
+        if not is_sentence_case(subtitle, allow_proper_nouns=True):
             result.errors.append(f"H2 subtitle is not in sentence case: {subtitle!r}")
+
+    if h1_match and h2_match:
+        title = h1_match.group(1).strip()
+        subtitle = h2_match.group(1).strip()
+        if len(title) > len(subtitle):
+            result.errors.append(
+                f"H1 ({len(title)} chars) is longer than H2 ({len(subtitle)} chars) — "
+                "are they swapped?"
+            )
 
     # ── Preamble fields ───────────────────────────────────────────────────
     fields = parse_preamble_fields(text)
@@ -255,46 +285,70 @@ def extract_section(text: str, start_marker: str, end_marker: str) -> str | None
     return text[si:ei] if ei >= 0 else text[si:]
 
 
-def is_sentence_case(s: str) -> bool:
+def is_sentence_case(s: str, *, allow_proper_nouns: bool = False) -> bool:
     """Permissive sentence-case check.
 
     Rules:
     - First letter (of first alphabetic word) must be uppercase.
-    - Subsequent words must be all-lowercase OR be a recognized proper-noun-ish
-      exception (acronym, contains digits, has internal capital like McX, etc.).
-    Words after a colon/em-dash/period get the same treatment as a fresh sentence.
+    - Subsequent words must be all-lowercase, all-uppercase (acronym), or
+      (if `allow_proper_nouns`) in PROPER_NOUNS.
+    - Hyphenated words are checked component-by-component (e.g. "Punjabi-style"
+      passes because "Punjabi" is a proper noun and "style" is lowercase).
+    Words after sentence-ending punctuation (.!?:) get the same treatment as
+    a fresh sentence.
+
+    H1 titles use strict mode (proper nouns shouldn't appear in transliterated
+    dish names). H2 subtitles allow the PROPER_NOUNS list since they're
+    descriptive English where places/languages naturally occur.
     """
-    # Split into tokens, preserving punctuation boundaries
     tokens = re.findall(r"\S+", s)
     if not tokens:
         return False
 
     sentence_start = True
     for tok in tokens:
-        # strip surrounding punctuation and markdown markers
         word = re.sub(r"^[\W_]+|[\W_]+$", "", tok)
         if not word:
             continue
         if not word[0].isalpha():
-            # numbers/symbols don't reset sentence-start
             continue
+
+        # Split hyphenated compounds (e.g. "Punjabi-style", "Stir-fried").
+        # The first component follows sentence-start rules; the rest are
+        # always treated as mid-sentence.
+        parts = word.split("-")
+        first, rest = parts[0], parts[1:]
+
         if sentence_start:
-            if not word[0].isupper():
+            if not _component_ok(first, at_start=True, allow_proper_nouns=allow_proper_nouns):
                 return False
             sentence_start = False
         else:
-            # Allow all-lowercase, all-uppercase (acronym), or words with no letters to check
-            if word.islower():
-                pass
-            elif word.isupper():
-                pass
-            else:
-                # Mixed case mid-sentence is suspect (e.g. "Mushroom" in "Kodava Mushroom Curry")
+            if not _component_ok(first, at_start=False, allow_proper_nouns=allow_proper_nouns):
                 return False
-        # Reset sentence-start after sentence-ending punctuation
+
+        for part in rest:
+            if not _component_ok(part, at_start=False, allow_proper_nouns=allow_proper_nouns):
+                return False
+
         if tok.endswith((".", "!", "?", ":")):
             sentence_start = True
     return True
+
+
+def _component_ok(word: str, *, at_start: bool, allow_proper_nouns: bool) -> bool:
+    """Validate a single (possibly hyphen-split) word component."""
+    if not word or not word[0].isalpha():
+        return True
+    if at_start:
+        return word[0].isupper()
+    if word.islower():
+        return True
+    if word.isupper():
+        return True  # acronym
+    if allow_proper_nouns and word.lower() in PROPER_NOUNS:
+        return True
+    return False
 
 
 def collect_paths(args_paths: list[str], include_drafts: bool) -> list[Path]:

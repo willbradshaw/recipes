@@ -164,6 +164,55 @@ def test_acronym_in_subtitle_is_allowed(tmp_path):
     assert not any("sentence case" in e for e in result.errors)
 
 
+@pytest.mark.parametrize(
+    "subtitle",
+    [
+        "Mixed dal, Delhi style",
+        "Stir-fried aubergines, Tamil Nadu style",
+        "Classic Punjabi-style kidney bean curry",
+        "Spinach with fresh Indian cheese",
+    ],
+)
+def test_proper_noun_in_subtitle_is_allowed(tmp_path, subtitle):
+    text = GOOD_RECIPE.replace("## Potato and cauliflower curry", f"## {subtitle}")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("sentence case" in e for e in result.errors)
+
+
+def test_proper_noun_in_h1_is_still_flagged(tmp_path):
+    # H1 uses strict sentence case — proper-noun allowlist doesn't apply.
+    # "Delhi" mid-sentence is mixed case and not allowed without the allowlist.
+    text = GOOD_RECIPE.replace("# Aloo gobi", "# Aloo Delhi style")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("H1 title is not in sentence case" in e for e in result.errors)
+
+
+def test_unknown_proper_noun_in_subtitle_is_flagged(tmp_path):
+    # Words not on the allowlist are still flagged.
+    text = GOOD_RECIPE.replace(
+        "## Potato and cauliflower curry", "## Aloo from the Foobar region"
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("H2 subtitle is not in sentence case" in e for e in result.errors)
+
+
+def test_h1_longer_than_h2_is_error(tmp_path):
+    # H1 should be the short dish name; H2 the longer English description.
+    text = GOOD_RECIPE.replace(
+        "# Aloo gobi", "# Lal mirch aur tamatar ka soup"
+    ).replace("## Potato and cauliflower curry", "## Tomato soup")
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("H1" in e and "longer than H2" in e for e in result.errors)
+
+
+def test_h1_equal_length_to_h2_is_ok(tmp_path):
+    text = GOOD_RECIPE.replace("# Aloo gobi", "# Aloooo gobi").replace(
+        "## Potato and cauliflower curry", "## Potato cauli"
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("longer than H2" in e for e in result.errors)
+
+
 # ── Length limits ─────────────────────────────────────────────────────────
 
 
