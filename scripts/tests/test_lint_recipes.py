@@ -205,6 +205,47 @@ def test_h1_longer_than_h2_is_error(tmp_path):
     assert any("H1" in e and "longer than H2" in e for e in result.errors)
 
 
+# ── US → UK spellings ────────────────────────────────────────────────────
+
+
+@pytest.mark.parametrize(
+    "us,uk",
+    [
+        ("flavors", "flavours"),
+        ("color", "colour"),
+        ("caramelized", "caramelised"),
+        ("yogurt", "yoghurt"),
+        ("cilantro", "coriander"),
+        ("liter", "litre"),
+    ],
+)
+def test_us_spelling_is_flagged(tmp_path, us, uk):
+    text = GOOD_RECIPE.replace(
+        "1. Heat a pan and cook the vegetables until tender.",
+        f"1. Heat a pan; add {us}.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any(f"American spelling {us!r}" in e and uk in e for e in result.errors)
+
+
+def test_us_spelling_capitalized_keeps_case(tmp_path):
+    text = GOOD_RECIPE.replace(
+        "1. Heat a pan and cook the vegetables until tender.",
+        "1. Flavor the dish well.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert any("'Flavour'" in e for e in result.errors)
+
+
+def test_uk_spelling_is_not_flagged(tmp_path):
+    text = GOOD_RECIPE.replace(
+        "1. Heat a pan and cook the vegetables until tender.",
+        "1. Add the flavours and colour the dish.",
+    )
+    result = lint_recipes.lint_file(write(tmp_path, text))
+    assert not any("American spelling" in e for e in result.errors)
+
+
 def test_h1_equal_length_to_h2_is_ok(tmp_path):
     text = GOOD_RECIPE.replace("# Aloo gobi", "# Aloooo gobi").replace(
         "## Potato and cauliflower curry", "## Potato cauli"

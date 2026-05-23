@@ -10,6 +10,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from dataclasses import dataclass, field
@@ -17,6 +18,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MD_DIR = REPO_ROOT / "md"
+DATA_DIR = Path(__file__).resolve().parent / "data"
 
 MAX_FILE_CHARS = 3000
 MAX_TITLE_CHARS = 25
@@ -84,6 +86,11 @@ FORBIDDEN_PREP_RE = re.compile(
     r"\b(" + "|".join(re.escape(w) for w in FORBIDDEN_PREP_WORDS) + r")\b"
     r"(?!\s+(?:" + "|".join(COOKWARE_NOUNS) + r")\b)",
     re.IGNORECASE,
+)
+
+US_TO_UK: dict[str, str] = json.loads((DATA_DIR / "us_to_uk.json").read_text())
+US_TO_UK_RE = re.compile(
+    r"\b(" + "|".join(re.escape(w) for w in US_TO_UK) + r")\b", re.IGNORECASE
 )
 
 # Proper nouns that are allowed to be capitalized mid-sentence. Extend as
@@ -245,6 +252,15 @@ def lint_file(path: Path) -> LintResult:
         result.errors.append(
             "Recipe has only one of '#### A. Preparation' / '#### B. Cooking' — must have both or neither"
         )
+
+    # ── American spellings ────────────────────────────────────────────────
+    for m in US_TO_UK_RE.finditer(text):
+        found = m.group(0)
+        uk = US_TO_UK[found.lower()]
+        # Preserve case in the suggestion.
+        if found[0].isupper():
+            uk = uk[0].upper() + uk[1:]
+        result.errors.append(f"American spelling {found!r}; use {uk!r}")
 
     # ── Forbidden cooking verbs in Preparation section ────────────────────
     prep_block = extract_section(text, "#### A. Preparation", "#### B. Cooking")
